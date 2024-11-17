@@ -6,11 +6,20 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens:{
+      'tb':'982px'
+    },                                                                    
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'accent':'#eb008b'
       },
+      transitionDuration:{
+        '400':'400ms'
+      },
+      borderRadius:{
+        '30':'30px'
+      },
+      
     },
   },
   plugins: [],
