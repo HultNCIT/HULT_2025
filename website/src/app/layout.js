@@ -1,19 +1,8 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata = {
   title: "HULT",
@@ -24,17 +13,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">       
       <body
-        className={''}
+        className={'w-full shrink-0'}
       >
-        <header>
+        <header >
         <Header/>
         </header>
-        <main className=" mt-12 h-[1000px]">
+        <main className=" mt-12 h-[1000px] border-2 ">
           {children}
         </main>
-        <footer className="bg-black text-white">
-          <Footer/>
+        <footer className="h-[313px] w-full ">
+          <Footer />
         </footer>
+
       
       </body>
  
