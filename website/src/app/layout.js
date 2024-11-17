@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -21,14 +22,22 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en">       
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={''}
       >
+        <header>
         <Header/>
-        {children}
-        <Footer/>
+        </header>
+        <main className=" mt-12 h-[1000px]">
+          {children}
+        </main>
+        <footer className="bg-black text-white">
+          <Footer/>
+        </footer>
+      
       </body>
+ 
     </html>
   );
 }
