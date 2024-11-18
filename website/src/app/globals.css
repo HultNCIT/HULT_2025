@@ -9,8 +9,6 @@ html, body {
   box-sizing: border-box;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
 }
-
-
   .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
