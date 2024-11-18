@@ -121,6 +121,7 @@ body {
 .tile-content p {
   @apply text-xl text-secondaryContent font-normal;
 }
+}
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js
