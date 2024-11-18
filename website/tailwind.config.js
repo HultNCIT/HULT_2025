@@ -6,22 +6,31 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens:{
-      'tb':'982px',
-      'md':'768px',
-      'sm':'640px'
-    },                                                                    
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+      // "2xl": "1536px",
+    },
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
       colors: {
-        'accent':'#eb008b'
+        accent: "#eb008b", // Accent Color
+        blackMain: "#231f20", // Main Black Color
+        content: "#b1b4b6",
+        secondaryContent: "#9a9ab2", // Content Color
+        secondaryContainer: "#fffcf8", // Secondary Container
+        tertiary: "#1f2937", // Tertiary Color
       },
-      transitionDuration:{
-        '400':'400ms'
+      transitionDuration: {
+        400: "400ms",
       },
-      borderRadius:{
-        '30':'30px'
+      borderRadius: {
+        30: "30px",
       },
-      
     },
   },
   plugins: [],
