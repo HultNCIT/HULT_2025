@@ -5,7 +5,7 @@ import Pill_outline from "@/components/common/Pill_outline";
 
 export default function Home() {
   return (
-    <div className=" w-full h-[500px] p-10 ">
+    <div className="  h-[500px] p-10 ">
        <div className=" w-full h-full flex justify-between ">
            <div className="py-10 px-20">
               <div className="py-5">
