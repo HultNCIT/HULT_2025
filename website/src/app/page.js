@@ -2,13 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Button from "@/components/common/Button";
 import Pill_outline from "@/components/common/Pill_outline";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
     <div className="  h-[500px] p-10 ">
       <div className=" w-full h-full flex justify-between ">
         <div className="py-10 px-20">
-          <div className="py-5">
+          <div className="py-5"> 
+            <Header />
             <Pill_outline />
           </div>
           <div className="poppins-extrabold leading-[45px]  text-[50px]">
