@@ -3,9 +3,9 @@ import Pill_outline from "@/components/common/Pill_outline";
 
 const Contact = () => {
   return (
-    <div className="contact-container mx-auto lg:max-w-7xl py-5 px-10 bg-secondaryContainer">
+    <div className="contact-container mt-16 mx-auto lg:max-w-7xl py-5 px-10 bg-secondaryContainer">
       <div className="head-container flex flex-col items-start gap-4">
-        <Pill_outline className="max-w-fit" />
+        <Pill_outline name={'Contact Us'} className="max-w-fit" color={'accent'} />
         <div className="head">
           <h1>
             Contact <span className="text-accent">Us</span>
