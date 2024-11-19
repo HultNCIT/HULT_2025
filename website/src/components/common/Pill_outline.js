@@ -1,10 +1,10 @@
 //Pill outline
 import React from 'react'
-function Pill_outline() {
+const Pill_outline = (props)=> {
   return (
-    <p className='border-[1px] rounded-30 poppins-medium border-accent px-6 py-2 inline'>
-    HULT PRIZE NCIT <span className='text-accent'>2025</span> 
-    </p>
+    <div className='border-[2px] rounded-30 poppins-medium border-accent px-4 py-2 inline'>
+   {props.name} <span className='text-accent'>{props.date}</span> 
+    </div>
   )
 }
 

@@ -11,8 +11,7 @@ export default function Home() {
       <div className=" w-full h-full flex justify-between ">
         <div className="py-10 px-20">
           <div className="py-5"> 
-            <Header />
-            <Pill_outline />
+            <Pill_outline name="HULT PRIZE NCIT" date="2025" />
           </div>
           <div className="poppins-extrabold leading-  text-[50px]">
             <h1>Changing the world</h1>
