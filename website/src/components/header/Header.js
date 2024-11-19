@@ -11,7 +11,7 @@ function Header() {
                 <Link className='block w-full transition-all duration-400  hover:text-accent px-3' href="/">Home</Link>
                 <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="/about">About</Link>
                 
-              <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="/contact">Contacts</Link>
+              <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="/Contact">Contacts</Link>
         </div> 
         <Link href='#' className='poppins-medium text-[30px]'>
           <Image

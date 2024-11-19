@@ -13,12 +13,10 @@ export default function RootLayout({ children }) {
       <body className={"w-full shrink-0"}>
         {/* {children} */}
         <header>
-          <Header />
+        <Header />
         </header>
-        <main className=" mt-16 h-[1000px] border-2 ">{children}</main>
-        <footer className="h-[313px] w-full ">
-          <Footer />
-        </footer>
+        {children}
+     
       </body>
     </html>
   );
