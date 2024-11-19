@@ -14,7 +14,7 @@ export default function Home() {
             <Header />
             <Pill_outline />
           </div>
-          <div className="poppins-extrabold leading-[45px]  text-[50px]">
+          <div className="poppins-extrabold leading-  text-[50px]">
             <h1>Changing the world</h1>
             <h1 className="text-accent">Through Social Enterprise</h1>
           </div>

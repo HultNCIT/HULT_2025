@@ -46,6 +46,7 @@ const Contact = () => {
               required
             ></textarea>
             <button type="submit">Submit Now</button>
+           
           </form>
         </div>
         <div className="contact-tiles flex-auto max-w-lg w-full">
