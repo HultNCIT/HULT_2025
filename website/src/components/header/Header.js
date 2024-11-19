@@ -9,7 +9,7 @@ function Header() {
     <nav className='fixed z-100 right-0 left-0 top-0 flex bg-white justify-between px-8 tb:px-16  py-4 items-center  shadow-sm'>
         <div className='hidden md:flex poppins-medium  h-full text-[20px] justify-around items-center  px-3'>
                 <Link className='block w-full transition-all duration-400  hover:text-accent px-3' href="/">Home</Link>
-                <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="#">About</Link>
+                <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="/about">About</Link>
                 
               <Link className='block w-full transition-all duration-400 hover:text-accent px-3' href="/Contact">Contacts</Link>
         </div> 

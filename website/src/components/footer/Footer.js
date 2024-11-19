@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-function Footer() {
+const Footer=()=> {
   return (
     <div className="bg-[#231f20] text-white h-full w-full flex flex-col md:flex-row flex-wrap justify-between items-center tracking-wider poppins-extralight text-lg px-6 md:px-28 py-7 md:py-0">
       <div>
