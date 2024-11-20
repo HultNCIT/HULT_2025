@@ -15,7 +15,7 @@ function Header() {
         </div> 
         <Link href='#' className='poppins-medium text-[30px]'>
           <Image
-              src={'/hult_image/hultprize_logo_dark.png'}
+              src={'/hult_image/hult_logo.jpg'}
               width={200}
               height={5}
               style={colorStyle}
