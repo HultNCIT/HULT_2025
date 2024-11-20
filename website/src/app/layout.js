@@ -10,13 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={"w-full shrink-0"}>
+      <body className={"w-full"}>
         {/* {children} */}
         <header>
-        <Header />
+          <Header />
         </header>
-        {children}
-     
+        <div className="mt-20">{children}</div>
       </body>
     </html>
   );
