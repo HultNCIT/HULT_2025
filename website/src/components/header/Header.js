@@ -28,7 +28,7 @@ function Header() {
           Contacts
         </Link>
       </div>
-      <Link href="#" className="poppins-medium text-[30px]">
+      <Link href="/" className="poppins-medium text-[30px]">
         <Image
           src={"/hult_image/hult_logo.jpg"}
           width={200}

@@ -12,7 +12,7 @@ export default function Home() {
         {/**left side */}
         <div className="hero-text flex flex-col gap-6">
           <div className="">
-            <Pill_outline name="HULT PRIZE NCIT" date="2025" color="accent" />
+            <Pill_outline name="HULT PRIZE NCIT" date="2025" color="border-color" />
           </div>
           <div className="font-extrabold">
             <h1 className="leading-tight">Changing the world</h1>
@@ -55,7 +55,7 @@ export default function Home() {
       <section className="pink-section flex flex-col items-center justify-between px-10 py-12 bg-accent">
         <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row">
           <div className="pink-content flex flex-col gap-6 items-start">
-            <Pill_outline name={"2025 Theme"} color={"text-accent"} />
+            <Pill_outline name={"2025 Theme"} />
             <h1 className="font-normal">
               Theme:{" "}
               <span className="font-extrabold text-white">Unlimited</span>
@@ -88,16 +88,16 @@ export default function Home() {
       <section className="py-14 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
         <h1 className="text-[35px] md:text-[40px]">Upcomimg Events</h1>
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
       </section>
       <section className="pb-12 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
         <h1 className="text-[35px] md:text-[40px]">Completed Events</h1>
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="blackMain" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
       </section>
       <Footer />
     </main>

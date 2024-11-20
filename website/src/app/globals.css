@@ -66,6 +66,21 @@ body {
 .tile-content p {
   @apply text-xl text-secondaryContent font-normal;
 }
+.footer-link-modify {
+  @apply opacity-50 hover:opacity-100 font-poppins
+}
+.border-color{
+  @apply border-accent
+}
+.border-black{
+  @apply border-blackMain
+}
+.about-content{
+    @apply mt-5 max-w-[800px]
+}
+.button-anime{
+  @apply bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400
+}
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js
