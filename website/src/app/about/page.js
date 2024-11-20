@@ -23,7 +23,7 @@ export default function AboutPage() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">
+          <h1 className="poppins-semibold text-4xl font-bold text-gray-800 mb-6">
             HULT PRIZE EVENT
           </h1>
           {/* Description */}

@@ -18,92 +18,36 @@ body {
   /* @apply bg-secondaryContainer; */
 }
 
-/* @layer base { */
-  h1,
-  h2,
-  h3 {
-    @apply font-extrabold;
-  .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+@layer base {
+  .container {
+    @apply max-w-sm;
   }
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-
-  }
-
-  /* 3 Responsive Heading tags are created. Use them whenever necessary. */
+  /* Responsive Headings: */
   h1 {
-    @apply text-4xl sm:text-5xl md:text-7xl lg:text-8xl;
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl;
   }
+
   h2 {
-    @apply text-3xl sm:text-4xl md:text-6xl lg:text-7xl;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
   }
+
   h3 {
-    @apply text-2xl sm:text-3xl md:text-5xl lg:text-6xl;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h4 {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  h5 {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+
+  h6 {
+    @apply text-base sm:text-lg md:text-xl lg:text-2xl;
+  }
+  p {
+    @apply text-base md:text-lg;
   }
 }
 
@@ -121,9 +65,6 @@ body {
 }
 .tile-content p {
   @apply text-xl text-secondaryContent font-normal;
-}
-.pink-section{
-  @apply flex items-center md:px-28 py-12
 }
 /* 
   No need for all this
@@ -240,6 +181,3 @@ body {
   font-weight: 900;
   font-style: italic;
 } */
-
-
-
