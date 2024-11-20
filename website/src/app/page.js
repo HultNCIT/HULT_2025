@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="">
-      <section className="hero-container min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row 2xl:px-0">
+      <section className="hero-container min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row">
         {/**left side */}
         <div className="hero-text flex flex-col gap-6">
           <div className="">
@@ -52,8 +52,8 @@ export default function Home() {
         </div>
       </section>
       {/**pink section */}
-      <section className="pink-section flex flex-col items-center justify-between  px-10 py-12 bg-accent">
-        <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row 2xl:px-0">
+      <section className="pink-section flex flex-col items-center justify-between px-10 py-12 bg-accent">
+        <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row">
           <div className="pink-content flex flex-col gap-6 items-start">
             <Pill_outline name={"2025 Theme"} color={"text-accent"} />
             <h1 className="font-normal">
