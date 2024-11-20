@@ -1,11 +1,14 @@
 import React from "react";
 import Pill_outline from "@/components/common/Pill_outline";
+import Footer from "@/components/footer/Footer";
+import Button from "@/components/common/Button";
 
 const Contact = () => {
   return (
-    <div className="contact-container mt-16 mx-auto lg:max-w-7xl py-5 px-10 bg-secondaryContainer">
+    <section>
+    <div className="contact-container mt-28 mx-auto lg:max-w-7xl py-5 px-10 bg-secondaryContainer">
       <div className="head-container flex flex-col items-start gap-4">
-        <Pill_outline name={'Contact Us'} className="max-w-fit" color={'accent'} />
+        <Pill_outline name={'Contact Us'} className="max-w-fit" color={'border-color'} />
         <div className="head">
           <h1>
             Contact <span className="text-accent">Us</span>
@@ -45,7 +48,8 @@ const Contact = () => {
               placeholder="Your Message"
               required
             ></textarea>
-            <button type="submit">Submit Now</button>
+            <button className="button-anime" type="submit">Submit Now</button>
+        
            
           </form>
         </div>
@@ -79,6 +83,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </section>
   );
 };
 
