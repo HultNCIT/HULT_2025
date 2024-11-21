@@ -6,29 +6,29 @@ function Header() {
     color: "black",
   };
   return (
-    <nav className="fixed z-100 right-0 left-0 top-0 bg-white flex justify-between px-8 tb:px-16  py-6 items-center  shadow-sm">
+    <nav className="fixed z-100 right-0 left-0 top-0 bg-white flex justify-between px-8 tb:px-16 py-2 items-center shadow-sm">
       <div className="hidden md:flex poppins-medium h-full text-[20px] justify-around items-center px-3">
         <Link
-          className="block w-full transition-all duration-400  hover:text-accent px-3"
+          className="block w-full transition-all duration-400 font-medium  hover:text-accent px-3"
           href="/"
         >
           Home
         </Link>
         <Link
-          className="block w-full transition-all duration-400 hover:text-accent px-3"
+          className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
           href="/about"
         >
           About
         </Link>
 
         <Link
-          className="block w-full transition-all duration-400 hover:text-accent px-3"
+          className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
           href="/Contact"
         >
           Contacts
         </Link>
       </div>
-      <Link href="/" className="poppins-medium text-[30px]">
+      <Link href="/" className="text-[30px]">
         <Image
           src={"/hult_image/hult_logo.jpg"}
           width={200}
@@ -39,12 +39,12 @@ function Header() {
         />
       </Link>
       <div className="flex md:w-[250px] justify-between items-center">
-        <a
-          className="hidden md:block text-[20px] transition-all duration-400 hover:text-accent "
+        <Link
+          className="hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent "
           href="#"
         >
           Events
-        </a>
+        </Link>
         <Button />
         <Image
           src={"/icons/hamburger.png"}
