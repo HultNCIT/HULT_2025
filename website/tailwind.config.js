@@ -17,6 +17,12 @@ module.exports = {
 		fontFamily: {
 		  poppins: ["Poppins", "sans-serif"],
 		},
+		variants: {
+			extend: {
+			  transform: ['group-hover'],
+			  rotate: ['group-hover'],
+			},
+		  },
 		colors: {
 		  accent: "#eb008b", // Accent Color
 		  blackMain: "#231f20", // Main Black Color

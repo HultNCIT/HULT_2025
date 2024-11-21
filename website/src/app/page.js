@@ -5,6 +5,7 @@ import Pill_outline from "@/components/common/Pill_outline";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import Link from "next/link";
+import TeamCard from "@/components/common/team";
 export default function Home() {
   return (
       <main className="  mt-12 ">
@@ -14,9 +15,9 @@ export default function Home() {
             <div className="py-5"> 
               <Pill_outline name="HULT PRIZE NCIT" date="2025" color='accent' />
             </div>
-            <div className="poppins-extrabold leading-24 min-w-[400px] sm:w-[500px] md:w-[700px] text-[20px] sm:text-[30px] md:text-[50px]">
-              <h1>Changing the world</h1>
-              <h1 className="text-accent">Through Social Enterprise</h1>
+            <div className="mt-4 poppins-extrabold leading-24 min-w-[400px] sm:w-[500px] md:w-[700px] text-[20px] sm:text-[30px] md:text-[50px]">
+              <h1 className="-my-6"> Changing the world</h1>
+              <h1 className=" text-accent">Through Social Enterprise</h1>
             </div>
             <div className="shrink-0 max-w-[800px] text-blackMain min-w-[330px]">
               The Hult Prize Foundation revolutionizes how young individuals
@@ -47,8 +48,8 @@ export default function Home() {
             <div className="py-5">
             <Pill_outline name={'2025 Theme'} color=''/>
             </div>
-            <p className="text-[25px] text-blackMain md:text-[40px]  ">Theme: <span className="font-extrabold text-white">Unlimited</span></p>
-            <div className="text-blackMain leading-7 ">
+            <p className="text-[25px] text-white font-semibold md:text-[40px]  ">Theme: <span className="font-extrabold text-white">Unlimited</span></p>
+            <div className="text-white leading-7 ">
               This year, participants are empowered to pitch any idea for a social enterprise, free from constraints, as long as it is both world-changing and aligned with at least one of the United Nations Sustainable Development Goals (SDGs).
             
               The challenge places the decision-making in your hands, enabling you to choose the societal problem you wish to solve and devise the business idea to address it. As we envision a future marked by equity, sustainability, and enjoyment for all, we invite you to harness the potential of business to create the world you desire to see.
