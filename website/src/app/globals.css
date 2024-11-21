@@ -60,11 +60,11 @@ body {
 .contact-tiles .tile-container {
   @apply border-accent border-2 my-4 py-8 px-6 rounded-xl;
 }
-.tile-head{
+.tile-head {
   @apply font-bold;
 }
 .tile-content p {
-  @apply  text-secondaryContent font-normal text-base;
+  @apply text-secondaryContent font-normal text-base;
 }
 .footer-link-modify {
   @apply opacity-50 hover:opacity-100;
@@ -76,7 +76,7 @@ body {
   @apply border-blackMain;
 }
 .about-content {
-  @apply mt-5 max-w-[800px];
+  @apply max-w-[800px];
 }
 .button-anime {
   @apply font-bold bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
