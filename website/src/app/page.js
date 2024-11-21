@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </section>
       {/**pink section */}
-      <section className="pink-section flex flex-col items-center justify-between px-10 py-12 bg-accent">
+      <section className=" flex flex-col items-center justify-center md:justify-between px-10 py-12 bg-accent">
         <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row">
           <div className="pink-content flex flex-col gap-6 items-start">
             <Pill_outline name={"2025 Theme"} color="border-blackMain" />
@@ -65,7 +65,7 @@ export default function Home() {
               <span className="font-extrabold text-white">Unlimited</span>
             </h1>
             <div className="">
-              <p className="text-blackMain">
+              <p className="text-blackMain ">
                 This year, participants are empowered to pitch any idea for a
                 social enterprise, free from constraints, as long as it is both
                 world-changing and aligned with at least one of the United
@@ -84,7 +84,7 @@ export default function Home() {
               width={400}
               height={200}
               alt="people"
-              className="h-[500px] min-w-[400px] shadow-xl rounded-md"
+              className="h-[500px] min-w-[200px] md:min-w-[400px] shadow-xl rounded-md"
             />
           </div>
         </div>

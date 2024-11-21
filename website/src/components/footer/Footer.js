@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="h-[300px] font-poppins">
-      <div className="bg-tertiary text-white h-full w-full flex flex-col lg:flex-row flex-wrap justify-between items-center tracking-wider poppins-extralight text-lg px-6 md:px-28 py-7 ">
+      <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center md:flex-row md:justify-between items-center tracking-wider poppins-extralight text-lg px-6 md:px-28 py-7 ">
         <div>
           <Image
             src={"/hult_image/hultprize_logo_light.png"}
