@@ -12,7 +12,11 @@ export default function Home() {
         {/**left side */}
         <div className="hero-text flex flex-col gap-6">
           <div className="">
-            <Pill_outline name="HULT PRIZE NCIT" date="2025" color="border-color" />
+            <Pill_outline
+              name="HULT PRIZE NCIT"
+              date="2025"
+              color="border-color"
+            />
           </div>
           <div className="font-extrabold">
             <h1 className="leading-tight">Changing the world</h1>
@@ -55,13 +59,13 @@ export default function Home() {
       <section className="pink-section flex flex-col items-center justify-between px-10 py-12 bg-accent">
         <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row">
           <div className="pink-content flex flex-col gap-6 items-start">
-            <Pill_outline name={"2025 Theme"} />
+            <Pill_outline name={"2025 Theme"} color="border-blackMain" />
             <h1 className="font-normal">
               Theme:{" "}
               <span className="font-extrabold text-white">Unlimited</span>
             </h1>
             <div className="">
-              <p>
+              <p className="text-blackMain">
                 This year, participants are empowered to pitch any idea for a
                 social enterprise, free from constraints, as long as it is both
                 world-changing and aligned with at least one of the United

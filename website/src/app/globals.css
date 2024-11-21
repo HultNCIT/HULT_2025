@@ -47,7 +47,7 @@ body {
     @apply text-base sm:text-lg md:text-xl lg:text-2xl;
   }
   p {
-    @apply text-base md:text-lg;
+    @apply text-base md:text-lg text-content;
   }
 }
 
@@ -67,19 +67,19 @@ body {
   @apply text-xl text-secondaryContent font-normal;
 }
 .footer-link-modify {
-  @apply opacity-50 hover:opacity-100 font-poppins
+  @apply opacity-50 hover:opacity-100;
 }
-.border-color{
-  @apply border-accent
+.border-color {
+  @apply border-accent;
 }
-.border-black{
-  @apply border-blackMain
+.border-black {
+  @apply border-blackMain;
 }
-.about-content{
-    @apply mt-5 max-w-[800px]
+.about-content {
+  @apply mt-5 max-w-[800px];
 }
-.button-anime{
-  @apply bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400
+.button-anime {
+  @apply bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
 }
 /* 
   No need for all this
