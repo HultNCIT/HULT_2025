@@ -11,7 +11,7 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
         <div className="absolute w-[95%] h-[95%] bg-pink-500 rounded-lg border-2 transition-transform duration-300 ease-in-out transform rotate-0 group-hover:rotate-6 group-hover:-translate-x-2 group-hover:-translate-y-5 group-hover:z-1"></div>
 
         {/* White Frame Rotating Clockwise */}
-        <div className="absolute w-[95%] h-[95%] bg-white rounded-lg top-[3%] left-[5%] z-20 transition-transform duration-300 ease-in-out transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+        <div className="absolute w-[95%] h-[95%] bg-white rounded-lg top-[3%] left-[4%] z-20 transition-transform duration-300 ease-in-out transform group-hover:-translate-x-2 group-hover:-translate-y-2">
           <img
             src={image} // Replace with your image URL
             alt="Team Member"
