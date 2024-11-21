@@ -5,7 +5,6 @@ import Pill_outline from "@/components/common/Pill_outline";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import Link from "next/link";
-import TeamCard from "@/components/common/team";
 export default function Home() {
   return (
     <main className="">
@@ -23,18 +22,6 @@ export default function Home() {
           </div>
           <div className="">
             <p className="text-secondaryContent">
-      <main className="  mt-12 ">
-        <section className=" w-full sm:p-[40px] flex justify-center sm:justify-between flex-col lg:flex-row">
-          {/**left side */}
-          <div className="py-10 w-full px-5 sm:px-6 md:px-20">
-            <div className="py-5"> 
-              <Pill_outline name="HULT PRIZE NCIT" date="2025" color='accent' />
-            </div>
-            <div className="mt-4 poppins-extrabold leading-24 min-w-[400px] sm:w-[500px] md:w-[700px] text-[20px] sm:text-[30px] md:text-[50px]">
-              <h1 className="-my-6"> Changing the world</h1>
-              <h1 className=" text-accent">Through Social Enterprise</h1>
-            </div>
-            <div className="shrink-0 max-w-[800px] text-blackMain min-w-[330px]">
               The Hult Prize Foundation revolutionizes how young individuals
               perceive their potential as change leaders in the world. At the
               core of its initiatives is a $1,000,000 global startup prize.
@@ -114,39 +101,5 @@ export default function Home() {
       </section>
       <Footer />
     </main>
-          </div>
-        </section>
-        {/**pink section */}
-        <section className="pink-section font-poppins bg-accent/80  p-8">
-          <div className="flex flex-col max-w-[900px] ">
-            <div className="py-5">
-            <Pill_outline name={'2025 Theme'} color=''/>
-            </div>
-            <p className="text-[25px] text-white font-semibold md:text-[40px]  ">Theme: <span className="font-extrabold text-white">Unlimited</span></p>
-            <div className="text-white leading-7 ">
-              This year, participants are empowered to pitch any idea for a social enterprise, free from constraints, as long as it is both world-changing and aligned with at least one of the United Nations Sustainable Development Goals (SDGs).
-            
-              The challenge places the decision-making in your hands, enabling you to choose the societal problem you wish to solve and devise the business idea to address it. As we envision a future marked by equity, sustainability, and enjoyment for all, we invite you to harness the potential of business to create the world you desire to see.
-            </div>
-          </div>
-        </section>
-        <section className="py-14 w-full flex flex-col justify-center items-center gap-6">
-           {/**Upcoming events */}
-            <h1 className="text-[35px] md:text-[40px]">Upcomimg Events</h1>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-        </section>
-        <section className="pb-12 w-full flex flex-col justify-center items-center gap-6">
-           {/**Upcoming events */}
-            <h1 className="text-[35px] md:text-[40px]">Completed Events</h1>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-            <Pill_outline name='NCIT HULT PRIZE' date='2025' color='blackMain'/>
-        </section>
-        <Footer />
-      </main>
-       
-    
   );
 }
