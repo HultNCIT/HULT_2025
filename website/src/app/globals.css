@@ -58,13 +58,13 @@ body {
   @apply p-4 my-2 rounded-xl border-accent outline-blackMain border-2;
 }
 .contact-tiles .tile-container {
-  @apply border-accent border-2 my-4 py-6 px-6 rounded-xl;
+  @apply border-accent border-2 my-4 py-8 px-6 rounded-xl;
 }
-.tile-head h4 {
-  @apply text-3xl font-bold;
+.tile-head{
+  @apply font-bold;
 }
 .tile-content p {
-  @apply text-xl text-secondaryContent font-normal;
+  @apply  text-secondaryContent font-normal text-base;
 }
 .footer-link-modify {
   @apply opacity-50 hover:opacity-100;
@@ -79,7 +79,7 @@ body {
   @apply mt-5 max-w-[800px];
 }
 .button-anime {
-  @apply bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
+  @apply font-bold bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
 }
 /* 
   No need for all this

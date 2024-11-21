@@ -61,27 +61,27 @@ const Contact = () => {
             <div className="tile-container">
               <div className="tile-text">
                 <div className="tile-head">
-                  <h4>Address</h4>
+                  <h6>Address</h6>
                 </div>
                 <div className="tile-content">
-                  <p>hultprize@ncit.edu.com</p>
+                  <p>Balkumari, Kathmandu</p>
                 </div>
               </div>
             </div>
             <div className="tile-container">
               <div className="tile-head">
-                <h4>Mail Us</h4>
+                <h6>Mail Us</h6>
               </div>
               <div className="tile-content">
-                <p className="font-thin">hultprize@ncit.edu.com</p>
+                <p>hultprize@ncit.edu.com</p>
               </div>
             </div>
             <div className="tile-container">
               <div className="tile-head">
-                <h4>Telephone</h4>
+                <h6>Telephone</h6>
               </div>
               <div className="tile-content">
-                <p className="font-light">(+977) 9862695444</p>
+                <p>(+977) 9862695444</p>
               </div>
             </div>
           </div>
