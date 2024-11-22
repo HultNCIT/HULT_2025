@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="form-container flex my-4 flex-col gap-8 items-center md:flex-row w-full">
+        <div className="form-container flex my-4 flex-col gap-8 items-stretch md:flex-row w-full">
           <div className="form-fields flex-auto w-full">
             <form action="" className="flex flex-col">
               <input
@@ -52,36 +52,41 @@ const Contact = () => {
                 placeholder="Your Message"
                 required
               ></textarea>
-              <button className="button-anime mt-2" type="submit">
+              <button className="button-anime mt-2 max-w-3xl" type="submit">
                 Submit Now
               </button>
             </form>
           </div>
-          <div className="contact-tiles flex-auto max-w-lg w-full">
-            <div className="tile-container">
-              <div className="tile-text">
-                <div className="tile-head">
-                  <h6>Address</h6>
-                </div>
+          <div className="contact-tiles flex-auto justify-center max-w-lg w-full">
+            <div className="tile-container-main">
+              <div className="tile-head">
+                <h5>Address:</h5>
+              </div>
+              <div className="tile-container">
                 <div className="tile-content">
                   <p>Balkumari, Kathmandu</p>
                 </div>
               </div>
             </div>
-            <div className="tile-container">
+
+            <div className="tile-container-main">
               <div className="tile-head">
-                <h6>Mail Us</h6>
+                <h5>Mail Us:</h5>
               </div>
-              <div className="tile-content">
-                <p>hultprize@ncit.edu.com</p>
+              <div className="tile-container">
+                <div className="tile-content">
+                  <p>hultprize@ncit.edu.com</p>
+                </div>
               </div>
             </div>
-            <div className="tile-container">
+            <div className="tile-container-main">
               <div className="tile-head">
-                <h6>Telephone</h6>
+                <h5>Telephone:</h5>
               </div>
-              <div className="tile-content">
-                <p>(+977) 9862695444</p>
+              <div className="tile-container">
+                <div className="tile-content">
+                  <p>(+977) 9862695444</p>
+                </div>
               </div>
             </div>
           </div>
