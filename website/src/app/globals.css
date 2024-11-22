@@ -79,8 +79,11 @@ body {
 .border-black {
   @apply border-blackMain;
 }
+.main-heading {
+  @apply flex flex-col gap-4;
+}
 .about-content {
-  @apply mt-5 max-w-[800px];
+  @apply max-w-[800px];
 }
 .button-anime {
   @apply font-bold bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
