@@ -81,6 +81,14 @@ body {
 .button-anime {
   @apply font-bold bg-accent text-white hover:bg-blackMain hover:text-accent rounded-full py-4 transition duration-400;
 }
+.media{
+  @apply flex gap-3 w-full justify-center items-center md:justify-start py-2
+}
+
+.media a{
+  @apply  bg-accent w-[30px] h-[30px] md:w-[35px] md:h-[35px] text-white hover:bg-blackMain hover:text-accent p-2 flex justify-center items-center rounded-full  transform duration-400
+}
+
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js
