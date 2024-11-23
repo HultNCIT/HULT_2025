@@ -93,7 +93,7 @@ body {
 }
 
 .media a {
-  @apply bg-accent w-[30px] h-[30px] md:w-[35px] md:h-[35px] text-white hover:bg-blackMain hover:outline outline-tertiary hover:outline-accent hover:outline-[0.15px] hover:text-accent p-2 flex justify-center items-end rounded-full transform duration-400;
+  @apply bg-accent w-[30px] h-[30px] md:w-[35px] md:h-[35px] text-white hover:bg-blackMain hover:outline outline-tertiary hover:outline-accent hover:outline-[0.15px] hover:text-accent p-2 flex justify-center items-center rounded-full transform duration-400;
 }
 
 /* 
