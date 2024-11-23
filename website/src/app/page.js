@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Button from "@/components/common/Button";
 import Pill_outline from "@/components/common/Pill_outline";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Countdown from "@/components/common/Countdown";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -56,9 +58,9 @@ export default function Home() {
         </div>
       </section>
       {/**pink section */}
-      <section className=" flex flex-col items-center justify-center md:justify-between px-10 py-12 bg-accent">
-        <div className="pink-container max-w-8xl flex flex-col mx-auto gap-10 justify-between items-center lg:flex-row">
-          <div className="pink-content flex flex-col gap-6 items-start">
+      <section className=" flex flex-col items-center justify-center md:justify-between px-10 py-14 lg:py-24 bg-accent">
+        <div className="pink-container max-w-8xl flex flex-col mx-auto gap-14 lg:gap-10 justify-between items-center lg:flex-row">
+          <div className="pink-content flex flex-col gap-6 max-w-3xl items-start justify-stretch">
             <Pill_outline name={"2025 Theme"} color="border-blackMain" />
             <h1 className="font-normal">
               Theme:{" "}
@@ -78,14 +80,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={"/hult_image/people.jpg"}
-              width={400}
-              height={200}
-              alt="people"
-              className="h-[500px] min-w-[200px] md:min-w-[400px] shadow-xl rounded-md"
-            />
+          <div className="countdown-content flex flex-col justify-center items-center gap-6 ">
+            <h1 className="font-bold">Event Countdown:</h1>
+            <Countdown targetDate="2024-12-25T00:00:00" />
           </div>
         </div>
       </section>
