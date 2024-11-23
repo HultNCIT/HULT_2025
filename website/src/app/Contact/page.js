@@ -5,7 +5,7 @@ import Button from "@/components/common/Button";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="flex flex-col min-h-fit lg:min-h-screen justify-between">
       <div className="contact-container mx-auto lg:max-w-8xl py-12 px-10">
         <div className="head-container flex flex-col items-start gap-4">
           <Pill_outline

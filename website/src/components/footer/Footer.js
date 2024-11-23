@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="h-[300px] font-poppins">
-      <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center md:flex-row md:justify-between items-center tracking-wider text-lg px-6 md:px-28 py-7 ">
+    <div className="h-[300px]">
+      <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center gap-3 md:flex-row md:justify-between items-center tracking-wider text-lg px-6 md:px-28 py-7 ">
         <div className="">
           <Image
             src={"/hult_image/hultprize_logo_light.png"}
