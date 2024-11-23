@@ -81,14 +81,14 @@ export default function Home() {
             </div>
           </div>
           <div className="countdown-content flex flex-col justify-center items-center gap-6 ">
-            <h1 className="font-bold">Event Countdown:</h1>
-            <Countdown targetDate="2024-12-25T00:00:00" />
+            <h1 className="font-bold">Event starts in:</h1>
+            <Countdown />
           </div>
         </div>
       </section>
       <section className="py-14 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
-        <h1 className="text-[35px] md:text-[40px]">Upcomimg Events</h1>
+        <h1 className="text-[35px] md:text-[40px]">Upcoming Events</h1>
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />

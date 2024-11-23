@@ -96,6 +96,10 @@ body {
   @apply bg-accent w-[30px] h-[30px] md:w-[35px] md:h-[35px] text-white hover:bg-blackMain hover:outline outline-tertiary hover:outline-accent hover:outline-[0.15px] hover:text-accent p-2 flex justify-center items-center rounded-full transform duration-400;
 }
 
+.countdown-hover-anim {
+  @apply outline outline-accent hover:outline-white transition-all duration-200;
+}
+
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js

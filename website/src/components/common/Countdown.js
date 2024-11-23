@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-const Countdown = ({ targetDate }) => {
+const Countdown = () => {
+  const targetDate = "2025-02-01T10:00:00";
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   function calculateTimeLeft() {
@@ -25,7 +26,11 @@ const Countdown = ({ targetDate }) => {
   }, []);
 
   if (!timeLeft) {
-    return <p className="text-xl text-red-500">The event has started!</p>;
+    return (
+      <div className="countdown-hover-anim p-3 rounded-2xl">
+        <h4 className="font-thin">Event has started.</h4>
+      </div>
+    );
   }
 
   return (
@@ -33,7 +38,7 @@ const Countdown = ({ targetDate }) => {
       {Object.entries(timeLeft).map(([unit, value]) => (
         <div
           key={unit}
-          className="flex flex-col gap-3 hover:outline p-2 outline-white rounded-2xl items-center"
+          className="countdown-hover-anim flex flex-col gap-3 p-2 rounded-2xl items-center"
         >
           <h1 className="font-extrabold">{value}</h1>
           <h4 className="text-sm uppercase">{unit}</h4>
