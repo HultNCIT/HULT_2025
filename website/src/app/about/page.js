@@ -1,5 +1,5 @@
 import Pill_outline from "@/components/common/Pill_outline";
-import TeamGenerator from "@/components/common/TeamGenerator";
+import TeamCard from "@/components/common/team";
 import Footer from "@/components/footer/Footer";
 export default function AboutPage() {
   return (
