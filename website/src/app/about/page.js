@@ -1,10 +1,9 @@
 import Pill_outline from "@/components/common/Pill_outline";
+import TeamGenerator from "@/components/common/TeamGenerator";
 import Footer from "@/components/footer/Footer";
-import TeamCard from "@/components/common/team";
 export default function AboutPage() {
   return (
     <div className="min-h-screen font-poppins ">
-
       {/* Main Content */}
       <div className="flex flex-col md:flex-row mt-32 px-6 md:px-20">
         {/* Left Image Section */}
@@ -15,14 +14,12 @@ export default function AboutPage() {
             className="rounded-lg shadow-lg object-cover w-full h-full"
           />
         </div>
-
         {/* Right Content Section */}
         <div className="w-full md:w-2/3 flex flex-col justify-center pl-0 md:pl-12">
           {/* ABOUT US Badge */}
           <div className="my-4">
             <Pill_outline className="text-sm" name="ABOUT US" color='border-color'/>
           </div>
-
           {/* Main Heading */}
           <h4 className=" font-bold mb-6">
             HULT PRIZE EVENT
@@ -50,10 +47,8 @@ export default function AboutPage() {
       <div className="flex flex-col md:flex-row mt-12 px-6 md:px-20">
         {/* Right Content Section */}
         <div className="w-full md:w-2/3 flex flex-col justify-center pl-0 md:pl-12">
-
           {/* Main Heading */}
          <div className="about-content">
-           
            <h4 className=" font-bold  mb-6">
            Regional Summit
            </h4>
@@ -95,32 +90,9 @@ export default function AboutPage() {
       <div className="flex justify-center pb-10 w-full">
         <h2 className=" font-bold border-b-4 border-accent">Our Team</h2>
       </div>
-      
-      <div className="px-6 md:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          <TeamCard  name="Samikshya Ghimire" position="Campus Director" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-          <TeamCard  name="Chandal Chudelni" position="Blood Hunter" image="/demon.jpeg" facebook="https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d" instagram="https://www.instagram.com/samikshyaxx/" linkedin="https://www.linkedin.com/in/samikshya-ghimire-2222222xx/" twitter="bla" />
-    </div>
+      <TeamGenerator/>
   </div>
-<Footer />
+  <Footer />
     </div>
   )
 }
