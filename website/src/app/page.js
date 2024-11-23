@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="">
-      <section className="hero-container min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row">
+      <section className="hero-container min-h-fit lg:min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row">
         {/**left side */}
         <div className="hero-text flex flex-col gap-6">
           <div className="">
