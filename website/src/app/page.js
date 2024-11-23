@@ -103,6 +103,10 @@ export default function Home() {
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
       </section>
+      {/**Gallery section */}
+      <section className="">
+          
+      </section>
       <Footer />
     </main>
   );
