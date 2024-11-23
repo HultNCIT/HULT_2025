@@ -9,7 +9,7 @@ function Header() {
   };
   return (
     <nav className="fixed z-50 right-0 left-0 top-0 bg-white flex justify-between px-8 tb:px-16 py-2 items-center shadow-sm">
-      <Menu hidden={'hidden'} flex={'md:flex'}/>
+      <Menu hidden={"hidden"} flex={"md:flex"} />
       <Link href="/" className="text-[30px]">
         <Image
           src={"/hult_image/hult_logo.jpg"}
@@ -20,7 +20,7 @@ function Header() {
           className="w-[150px] sm:w-[170px]  md:w-[200px]"
         />
       </Link>
-      <div className="flex md:w-[250px] justify-between items-center">
+      <div className="flex md:w-[250px] space-x-4 justify-between items-center">
         <Link
           className="hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent "
           href="#"
@@ -36,7 +36,7 @@ function Header() {
           className="md:hidden block ml-2"
         /> */}
         {/* <span className="block md:hidden ml-2"><i className="fa-solid fa-bars"></i></span> */}
-        <SildeBar/>
+        <SildeBar />
       </div>
     </nav>
   );
