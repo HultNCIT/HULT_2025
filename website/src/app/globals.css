@@ -58,10 +58,7 @@ body {
   @apply p-4 my-2 max-w-3xl rounded-2xl border-accent outline-blackMain border-2;
 }
 .contact-tiles .tile-container {
-  @apply border-accent border-2 py-4 px-6 rounded-2xl;
-}
-.tile-container-main {
-  @apply flex gap-2 flex-col my-6;
+  @apply border-accent flex gap-2 flex-col my-6 border-2 py-4 px-6 rounded-2xl;
 }
 
 .tile-head {
