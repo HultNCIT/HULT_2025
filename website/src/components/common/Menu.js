@@ -20,6 +20,13 @@ function Menu(props) {
 
       <Link
         className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
+        href="/gallery"
+      >
+        Gallery
+      </Link>
+
+      <Link
+        className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
         href="/Contact"
       >
         Contacts
