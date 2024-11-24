@@ -4,7 +4,7 @@ import Footer from "@/components/footer/Footer";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const metadata = {
-  title: "HULT AT NICT 2025",
+  title: "HULT AT NCIT 2025",
   description: "Created by HULT NCIT 2025",
 };
 

@@ -5,8 +5,8 @@ import Button from "@/components/common/Button";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col min-h-fit lg:min-h-screen justify-between">
-      <div className="contact-container mx-auto lg:max-w-8xl py-12 px-10">
+    <section className="flex flex-col min-h-screen  justify-between">
+      <div className="contact-container mx-auto lg:max-w-8xl my-auto py-12 px-10">
         <div className="head-container flex flex-col items-start gap-4">
           <Pill_outline
             name={"Connect with Us"}
@@ -58,35 +58,30 @@ const Contact = () => {
             </form>
           </div>
           <div className="contact-tiles flex-auto justify-center max-w-lg w-full">
-            <div className="tile-container-main">
+            <div className="tile-container">
               <div className="tile-head">
                 <h5>Address:</h5>
               </div>
-              <div className="tile-container">
-                <div className="tile-content">
-                  <p>Balkumari, Kathmandu</p>
-                </div>
+              <div className="tile-content">
+                <p>Balkumari, Kathmandu</p>
               </div>
             </div>
 
-            <div className="tile-container-main">
+            <div className="tile-container">
               <div className="tile-head">
                 <h5>Mail Us:</h5>
               </div>
-              <div className="tile-container">
-                <div className="tile-content">
-                  <p>hultprize@ncit.edu.com</p>
-                </div>
+              <div className="tile-content">
+                <p>hultprize@ncit.edu.com</p>
               </div>
             </div>
-            <div className="tile-container-main">
+
+            <div className="tile-container">
               <div className="tile-head">
                 <h5>Telephone:</h5>
               </div>
-              <div className="tile-container">
-                <div className="tile-content">
-                  <p>(+977) 9862695444</p>
-                </div>
+              <div className="tile-content">
+                <p>(+977) 9862695444</p>
               </div>
             </div>
           </div>

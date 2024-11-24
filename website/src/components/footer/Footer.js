@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="h-[300px]">
       <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center gap-3 md:flex-row md:justify-between items-center tracking-wider text-lg px-6 md:px-28 py-7 ">
-        <div className="">
+        <div className="space-y-2">
           <Image
             src={"/hult_image/hultprize_logo_light.png"}
             width={316}
@@ -13,17 +13,17 @@ const Footer = () => {
             alt="hultprize"
           />
           <div className="media">
-            <a href="#">
-              <i className="fa-brands fa-facebook-f"></i>
+            <a href="#" className=" text-center">
+              <i className="fa-brands fa-facebook-f my-auto mx-auto"></i>
             </a>
-            <a href="#">
-              <i className="fa-brands fa-twitter"></i>
+            <a href="#" className=" text-center">
+              <i className="fa-brands fa-twitter mx-auto"></i>
             </a>
-            <a href="#">
-              <i className="fa-brands fa-instagram"></i>
+            <a href="#" className=" text-center">
+              <i className="fa-brands fa-instagram mx-auto"></i>
             </a>
-            <a href="#">
-              <i className="fa-brands fa-linkedin-in"></i>
+            <a href="#" className=" text-center">
+              <i className="fa-brands fa-linkedin-in mx-auto"></i>
             </a>
           </div>
         </div>
