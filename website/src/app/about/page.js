@@ -58,7 +58,7 @@ export default function AboutPage() {
         </div>
         <div className="flex flex-col md:flex-row my-6 px-6 md:px-20">
           {/* Right Content Section */}
-          <div className="w-full md:w-2/3 flex flex-col justify-center gap-8 mb-4 pl-0 md:pl-12">
+          <div className="w-full md:w-2/3 flex flex-col justify-center gap-8 mb-4">
             {/* Main Heading */}
             <div className=" about-content main-heading">
               <h4 className=" font-bold">Regional Summit</h4>
@@ -105,7 +105,7 @@ export default function AboutPage() {
           <div className="flex justify-center pb-10 w-full">
             <h2 className=" font-bold border-b-4 border-accent">Our Team</h2>
           </div>
-          <TeamGenerator/>
+          <TeamGenerator />
         </div>
       </div>
       <Footer />
