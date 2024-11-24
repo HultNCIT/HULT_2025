@@ -45,8 +45,8 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
           </div>
         </div>
       </div>
-      <div className="text-blackMain  font-bold text-sm whitespace-nowrap">{name}</div>
-      <div className="text-blackMain font-bold text-sm whitespace-nowrap">{position}</div>
+      <div className="text-blackMain  font-bold text-lg whitespace-nowrap ">{name}</div>
+      <div className="text-blackMain font-semibold -mt-2 text-sm whitespace-nowrap">{position}</div>
     </div>
   );
 };
