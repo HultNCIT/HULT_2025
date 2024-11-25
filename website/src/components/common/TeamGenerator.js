@@ -7,7 +7,7 @@ function TeamGenerator() {
     const [teamData, setTeamData] = useState([]);
     useEffect(() => {
       // Fetch the team data from the JSON file (assuming it is in the public folder)
-      fetch('/jsonFiles/teaminfo.json')
+      fetch('../../../public/jsonFiles/teaminfo.json')
         .then((response) => response.json())
         .then((data) => setTeamData(data.teamHult)) // Extract teamDeputy from JSON
         .catch((error) => console.log('Error fetching team data:', error));
