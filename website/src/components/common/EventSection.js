@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -31,7 +32,7 @@ const EventSection = () => {
   const upcomingEvents = data.filter((event) => new Date(event.date) > today);
 
   return (
-    <div className="event-section flex justify-between items-stretch space-x-20 mx-auto px-12">
+    <div className="event-section flex flex-col lg:flex-row justify-between items-center gap-28 mx-auto px-8">
       {/*
 
       Current Event Section
@@ -57,13 +58,13 @@ const EventSection = () => {
       Events Section
 
        */}
-      <div className="upcoming-section flex flex-col gap-8">
+      <div className="upcoming-section flex flex-col gap-4">
         <div>
           <h4 className="font-extrabold">Coming Later:</h4>
         </div>
-        <div className=" w-[900px]">
+        <div className="w-[450px] sm:w-[500px] md:w-[600px] lg:w-[400px] xl:w-[700px] 2xl:w-[950px]">
           <Swiper
-            className="swiper-container scal"
+            className="swiper-container"
             slidesPerView={3}
             freeMode={true}
             spaceBetween={-40}
@@ -71,6 +72,32 @@ const EventSection = () => {
             navigation
             pagination={{
               clickable: true,
+            }}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: -150,
+              },
+              576: {
+                slidesPerView: 1,
+                spaceBetween: -200,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: -40,
+              },
+              992: {
+                slidesPerView: 1,
+                spaceBetween: -100,
+              },
+              1200: {
+                slidesPerView: 2,
+                spaceBetween: -30,
+              },
+              1400: {
+                slidesPerView: 3,
+                spaceBetween: -20,
+              },
             }}
             modules={[Navigation, Pagination]}
           >
