@@ -35,7 +35,7 @@ const Countdown = () => {
   }
 
   return (
-    <div className="flex justify-center flex-col xs:flex-row gap-6 text-center">
+    <div className="flex justify-center flex-col flex-nowrap xs:flex-row gap-6 text-center">
       {Object.entries(timeLeft).map(([unit, value]) => (
         <div
           key={unit}

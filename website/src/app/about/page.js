@@ -1,5 +1,4 @@
 import Pill_outline from "@/components/common/Pill_outline";
-import TeamCard from "@/components/common/team";
 import TeamGenerator from "@/components/common/TeamGenerator";
 import Footer from "@/components/footer/Footer";
 export default function AboutPage() {
@@ -102,10 +101,12 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="py-10">
-          <div className="flex justify-center pb-10 w-full">
+          <div className="flex justify-center pb-6 md:pb-10 w-full">
             <h2 className=" font-bold border-b-4 border-accent">Our Team</h2>
           </div>
+
           <TeamGenerator />
+         
         </div>
       </div>
       <Footer />

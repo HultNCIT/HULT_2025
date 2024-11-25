@@ -79,8 +79,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="countdown-content flex flex-col justify-center items-center gap-6 ">
-            <h1 className="font-bold">On Campus Final:</h1>
+          <div className="countdown-content flex  flex-col justify-center items-center gap-6 ">
+            <h1 className="font-bold text-nowrap">On Campus Final:</h1>
             <Countdown />
           </div>
         </div>
