@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
           <div className="countdown-content flex flex-col justify-center items-center gap-6 ">
-            <h1 className="font-bold">Event starts in:</h1>
+            <h1 className="font-bold">On Campus Final:</h1>
             <Countdown />
           </div>
         </div>
@@ -101,9 +101,7 @@ export default function Home() {
         <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
       </section>
       {/**Gallery section */}
-      <section className="">
-          
-      </section>
+      <section className=""></section>
       <Footer />
     </main>
   );
