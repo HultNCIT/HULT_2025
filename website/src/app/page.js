@@ -6,6 +6,7 @@ import Pill_outline from "@/components/common/Pill_outline";
 import Footer from "@/components/footer/Footer";
 import Countdown from "@/components/common/Countdown";
 import Link from "next/link";
+import EventSection from "@/components/common/EventSection";
 export default function Home() {
   return (
     <main className="">
@@ -39,7 +40,7 @@ export default function Home() {
           <div className="mt-6">
             <Link
               href={"/about"}
-              className=" px-5 py-4 bg-accent font-poppins rounded-full text-white  hover:bg-blackMain transform duration-400 hover:text-accent"
+              className=" px-5 py-4 bg-accent font-poppins rounded-full text-white hover:bg-blackMain transform duration-400 hover:text-accent"
             >
               Learn More
             </Link>
@@ -79,18 +80,19 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="countdown-content flex  flex-col justify-center items-center gap-6 ">
-            <h1 className="font-bold text-nowrap">On Campus Final:</h1>
+          <div className="countdown-content flex flex-col justify-center items-center gap-6 ">
+            <h2 className="font-bold text-nowrap">On Campus Final:</h2>
             <Countdown />
           </div>
         </div>
       </section>
-      <section id="event" className="py-14 w-full flex flex-col justify-center items-center gap-6">
+      <section
+        id="event"
+        className="py-14 w-full flex flex-col justify-center items-center gap-12"
+      >
         {/**Upcoming events */}
-        <h1 className="text-[35px] md:text-[40px]">Upcoming Events</h1>
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <h1 className="font-extrabold">Upcoming Events</h1>
+        <EventSection />
       </section>
       <section className="pb-12 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
