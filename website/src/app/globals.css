@@ -61,8 +61,8 @@ body {
 .contact-tiles .tile-container {
   @apply border-accent flex gap-2 flex-col my-6 border-2 py-4 px-6 rounded-2xl;
 }
-.common{
-  @apply hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent
+.common {
+  @apply hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent;
 }
 .tile-head {
   @apply font-bold;
@@ -100,14 +100,19 @@ body {
 .countdown-hover-anim {
   @apply outline outline-accent hover:outline-white transition-all duration-200;
 }
-.fa-arrow-up-right-from-square{
-  @apply text-sm ml-2
+
+.event-card {
+  @apply outline outline-blackMain outline-[0.5px] w-80 h-[28rem] pt-8 rounded-2xl;
 }
-.toggle-link{
-  @apply py-1
+
+.fa-arrow-up-right-from-square {
+  @apply text-sm ml-2;
 }
-.toggle-link a{
-  @apply hover:border-b-2 hover:border-blackMain hover:border-opacity-20
+.toggle-link {
+  @apply py-1;
+}
+.toggle-link a {
+  @apply hover:border-b-2 hover:border-blackMain hover:border-opacity-20;
 }
 
 /* 
