@@ -102,7 +102,7 @@ body {
 }
 
 .event-card {
-  @apply outline outline-blackMain outline-[0.5px] max-w-4xl h-96 pt-8 rounded-2xl;
+  @apply outline outline-blackMain outline-[0.5px] w-80 h-[28rem] pt-8 rounded-2xl;
 }
 
 .fa-arrow-up-right-from-square {

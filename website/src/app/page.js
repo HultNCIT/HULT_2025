@@ -6,7 +6,7 @@ import Pill_outline from "@/components/common/Pill_outline";
 import Footer from "@/components/footer/Footer";
 import Countdown from "@/components/common/Countdown";
 import Link from "next/link";
-import EventCard from "@/components/common/card";
+import EventSection from "@/components/common/EventSection";
 export default function Home() {
   return (
     <main className="">
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="mt-6">
             <Link
               href={"/about"}
-              className=" px-5 py-4 bg-accent font-poppins rounded-full text-white  hover:bg-blackMain transform duration-400 hover:text-accent"
+              className=" px-5 py-4 bg-accent font-poppins rounded-full text-white hover:bg-blackMain transform duration-400 hover:text-accent"
             >
               Learn More
             </Link>
@@ -88,38 +88,11 @@ export default function Home() {
       </section>
       <section
         id="event"
-        className="py-14 w-full flex flex-col justify-center items-center gap-6"
+        className="py-14 w-full flex flex-col justify-center items-center gap-12"
       >
         {/**Upcoming events */}
         <h1 className="font-extrabold">Upcoming Events</h1>
-        <div className="event-section flex justify-between items-stretch gap-16 max-w-8xl mx-auto">
-          <div className="current-section flex flex-col gap-8">
-            <h4 className="font-bold text-nowrap ">Happening Now</h4>
-            <EventCard
-              hover="scale-110"
-              transition=" transition-all duration-300 ease-in-out"
-            />
-          </div>
-          <div className="upcoming-section flex flex-col gap-8">
-            <div>
-              <h4 className="font-bold">Coming Later</h4>
-            </div>
-            <div className="card-stack flex gap-8">
-              <EventCard
-                hover="hover:scale-110"
-                transition=" transition-all duration-300 ease-in-out"
-              />
-              <EventCard
-                hover="hover:scale-110"
-                transition=" transition-all duration-300 ease-in-out"
-              />
-              <EventCard
-                hover="hover:scale-110"
-                transition=" transition-all duration-300 ease-in-out"
-              />
-            </div>
-          </div>
-        </div>
+        <EventSection />
       </section>
       <section className="pb-12 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
