@@ -1,9 +1,28 @@
+'use client'
 import Link from "next/link";
 import Button from "../common/Button";
 import Image from "next/image";
 import SildeBar from "../common/SildeBar";
 import Menu from "../common/Menu";
+import { useState } from "react";
+// import { KeyIcon } from "lucide-react";
 function Header() {
+  // const [on, SetOn]=useState(false)
+  // function toggleButton(){
+  //   if (!on){
+
+  //     SetOn(true)
+  //   }
+  //   else{
+  //     SetOn(false)
+  //   }
+  // }
+  // const pastWeb=[
+  //   {
+  //     "name":"HULT NCIT 2024",
+  //     "link":"https://hultprize.ncit.edu.np/"
+  //   }
+  // ]
   const colorStyle = {
     color: "black",
   };
@@ -20,13 +39,36 @@ function Header() {
           className="w-[150px] sm:w-[170px]  md:w-[200px]"
         />
       </Link>
-      <div className="flex md:w-[250px] space-x-4 justify-between items-center">
-        <Link
-          className="hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent "
-          href="#"
+      <div className="flex md:w-[350px] space-x-4 justify-between items-center">
+        <div  className=" relative flex justify-between items-center h-full">
+          <div className="common">
+            <a href="https://hultprize.ncit.edu.np/" target="blank">
+              <span className="">History</span>
+              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+            {/* <div className={`${on?'block':'hidden'} absolute top-10 -right-3 bg-white text-blackMain px-10  rounded-lg border-5 border-accent shadow-xl `}> */}
+               {/* {pastWeb.map((web,index)=>{
+                  <a href={web.link} key={index} target="blank">{web.link}</a>
+               })} */}
+               {/* <div className="toggle-link">
+               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-nowrap text-sm ">HULTPRIZE 2025</a>
+               </div>
+               <div className="toggle-link">
+               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-sm text-nowrap">HULTPRIZE 2025</a>
+               </div>
+               <div className="toggle-link">
+               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-sm text-nowrap">HULTPRIZE 2025</a>
+               </div> */}
+                
+         
+        </div>
+        <a
+          className="common"
+          href="#event"
         >
           Events
-        </Link>
+        </a>
         <Button />
         {/* <Image
           src={"/icons/hamburger.png"}
