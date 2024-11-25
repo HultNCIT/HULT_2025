@@ -9,6 +9,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
   box-sizing: border-box;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
 }
@@ -60,10 +61,13 @@ body {
 .contact-tiles .tile-container {
   @apply border-accent flex gap-2 flex-col my-6 border-2 py-4 px-6 rounded-2xl;
 }
-
+.common {
+  @apply hidden md:block text-[20px] font-medium transition-all duration-400 hover:text-accent;
+}
 .tile-head {
   @apply font-bold;
 }
+
 .tile-content p {
   @apply text-secondaryContent font-normal text-base;
 }
@@ -101,6 +105,15 @@ body {
   @apply outline outline-blackMain outline-[0.5px] max-w-4xl h-96 pt-8 rounded-2xl;
 }
 
+.fa-arrow-up-right-from-square {
+  @apply text-sm ml-2;
+}
+.toggle-link {
+  @apply py-1;
+}
+.toggle-link a {
+  @apply hover:border-b-2 hover:border-blackMain hover:border-opacity-20;
+}
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js
