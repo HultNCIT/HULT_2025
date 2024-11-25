@@ -109,6 +109,7 @@ body {
 .toggle-link a{
   @apply hover:border-b-2 hover:border-blackMain hover:border-opacity-20
 }
+
 /* 
   No need for all this
   Just add the poppins theme in tailwind.config.js

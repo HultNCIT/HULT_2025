@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-
 const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedin }) => {
   return (
-    <div className="flex justify-center flex-col gap-2 mb-20 items-center">
+ 
+    <div className="mt-12 md:mt-0 flex justify-center flex-col gap-2 mb-20 items-center  ">
       {/* Team Member Card */}
       <div className="relative group w-[200px] h-[280px] cursor-pointer">
         {/* Pink Background Rotating Counterclockwise */}
@@ -48,6 +48,7 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
       <div className="text-blackMain  font-bold text-lg whitespace-nowrap ">{name}</div>
       <div className="text-blackMain font-semibold -mt-2 text-sm whitespace-nowrap">{position}</div>
     </div>
+
   );
 };
 
