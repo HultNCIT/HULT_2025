@@ -51,6 +51,9 @@ body {
     @apply text-base md:text-lg text-content;
   }
 }
+.pill {
+  @apply text-sm font-medium md:text-base text-blackMain;
+}
 
 .form-fields input {
   @apply p-4 my-4 max-w-3xl rounded-2xl border-accent outline-blackMain border-2;
@@ -102,7 +105,7 @@ body {
 }
 
 .event-card {
-  @apply outline outline-blackMain outline-[0.5px] w-80 h-[28rem] pt-8 rounded-2xl;
+  @apply flex flex-col items-end justify-between outline outline-blackMain outline-[1px] w-80 h-[28rem] pt-8 rounded-2xl;
 }
 
 .fa-arrow-up-right-from-square {

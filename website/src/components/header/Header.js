@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link";
 import Button from "../common/Button";
 import Image from "next/image";
@@ -40,18 +40,22 @@ function Header() {
         />
       </Link>
       <div className="flex md:w-[350px] space-x-4 justify-between items-center">
-        <div  className=" relative  h-full">
+        <div className=" relative  h-full">
           <div className="common ">
-            <a href="https://hultprize.ncit.edu.np/" className="flex flex-nowrap justify-center items-center" target="blank">
+            <a
+              href="https://hultprize.ncit.edu.np/"
+              className="flex flex-nowrap justify-center items-center"
+              target="blank"
+            >
               <span className="">History</span>
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
-            {/* <div className={`${on?'block':'hidden'} absolute top-10 -right-3 bg-white text-blackMain px-10  rounded-lg border-5 border-accent shadow-xl `}> */}
-               {/* {pastWeb.map((web,index)=>{
+          {/* <div className={`${on?'block':'hidden'} absolute top-10 -right-3 bg-white text-blackMain px-10  rounded-lg border-5 border-accent shadow-xl `}> */}
+          {/* {pastWeb.map((web,index)=>{
                   <a href={web.link} key={index} target="blank">{web.link}</a>
                })} */}
-               {/* <div className="toggle-link">
+          {/* <div className="toggle-link">
                <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-nowrap text-sm ">HULTPRIZE 2025</a>
                </div>
                <div className="toggle-link">
@@ -60,13 +64,8 @@ function Header() {
                <div className="toggle-link">
                <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-sm text-nowrap">HULTPRIZE 2025</a>
                </div> */}
-                
-         
         </div>
-        <a
-          className="common"
-          href="#event"
-        >
+        <a className="common" href="#event">
           Events
         </a>
         <Button />
