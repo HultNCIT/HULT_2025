@@ -1,15 +1,11 @@
 "use client";
-
 import React, { useState } from "react";
-import Link from "next/link";
 import Menu from "./Menu";
 function SlideBar() {
   const [active, setActive] = useState(false);
-
   function toggleSidebar() {
     setActive(!active);
   }
-
   return (
     <div>
       {/* Hamburger Menu Icon */}
@@ -19,7 +15,6 @@ function SlideBar() {
       >
         <i className="fa-solid fa-bars"></i>
       </span>
-
       {/* Sidebar */}
       <div
         className={`fixed bg-white top-0 right-0 bottom-0 w-[300px] backdrop-blur-xl opacity-95 transform ${

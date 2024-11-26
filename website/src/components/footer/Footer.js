@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <div className="h-[300px]">
+    
       <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center gap-3 md:flex-row md:justify-between items-center tracking-wider text-lg px-6 md:px-28 py-7 ">
         <div className="space-y-2">
           <Image
@@ -39,6 +39,9 @@ const Footer = () => {
             <Link className="footer-link-modify text-sm" href={"/"}>
               Events
             </Link>
+            <a href="https://hultprize.ncit.edu.np/" className="footer-link-modify  " target="blank">
+              History
+            </a>
             <Link className="footer-link-modify text-sm" href="/Contact">
               Contact
             </Link>
@@ -58,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 };
 
