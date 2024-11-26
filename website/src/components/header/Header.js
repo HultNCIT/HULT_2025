@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Link from "next/link";
 import Button from "../common/Button";
 import Image from "next/image";
@@ -40,12 +40,17 @@ function Header() {
         />
       </Link>
       <div className="flex md:w-[350px] space-x-4 justify-between items-center">
-        <div  className=" relative  h-full">
+        <div className=" relative  h-full">
           <div className="common ">
-            <a href="https://hultprize.ncit.edu.np/" className="flex flex-nowrap justify-center items-center" target="blank">
+            <a
+              href="https://hultprize.ncit.edu.np/"
+              className="flex flex-nowrap justify-center items-center"
+              target="blank"
+            >
               <span className="">History</span>
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
+
           </div>                       
          
         </div>
