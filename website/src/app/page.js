@@ -93,12 +93,10 @@ export default function Home() {
         <h1 className="font-extrabold">Upcoming Events</h1>
         <EventSection />
       </section>
-      <section className="pb-12 w-full flex flex-col justify-center items-center gap-6">
+      <section className="py-12 w-full flex flex-col justify-center items-center gap-6">
         {/**Upcoming events */}
-        <h1 className="text-[35px] md:text-[40px]">Completed Events</h1>
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
-        <Pill_outline name="NCIT HULT PRIZE" date="2025" color="border-black" />
+        <h1 className="font-extrabold">Completed Events</h1>
+        <h3>No events are completed.</h3>
       </section>
       {/**Gallery section */}
       <section className=""></section>
