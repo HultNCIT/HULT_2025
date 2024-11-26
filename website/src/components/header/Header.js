@@ -50,33 +50,18 @@ function Header() {
               <span className="">History</span>
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
-          </div>
-          {/* <div className={`${on?'block':'hidden'} absolute top-10 -right-3 bg-white text-blackMain px-10  rounded-lg border-5 border-accent shadow-xl `}> */}
-          {/* {pastWeb.map((web,index)=>{
-                  <a href={web.link} key={index} target="blank">{web.link}</a>
-               })} */}
-          {/* <div className="toggle-link">
-               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-nowrap text-sm ">HULTPRIZE 2025</a>
-               </div>
-               <div className="toggle-link">
-               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-sm text-nowrap">HULTPRIZE 2025</a>
-               </div>
-               <div className="toggle-link">
-               <a href={"https://hultprize.ncit.edu.np/ "} target="blank" className="text-sm text-nowrap">HULTPRIZE 2025</a>
-               </div> */}
+
+          </div>                       
+         
         </div>
-        <a className="common" href="#event">
+        <a
+          className="common"
+          href="/#event"
+        >
           Events
         </a>
         <Button />
-        {/* <Image
-          src={"/icons/hamburger.png"}
-          width={30}
-          height={30}
-          alt="hamburger"
-          className="md:hidden block ml-2"
-        /> */}
-        {/* <span className="block md:hidden ml-2"><i className="fa-solid fa-bars"></i></span> */}
+        {/**slidebar */}
         <SildeBar />
       </div>
     </nav>

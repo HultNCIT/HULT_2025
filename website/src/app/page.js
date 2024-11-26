@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-
 import Pill_outline from "@/components/common/Pill_outline";
 import Footer from "@/components/footer/Footer";
 import Countdown from "@/components/common/Countdown";
