@@ -27,7 +27,13 @@ function Menu(props) {
       <Link href="https://hultprize.ncit.edu.np/" className="flex md:hidden flex-nowrap justify-center items-center transition-all duration-400 font-medium hover:text-accent px-3" target="blank">
               <span className="">History</span>
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
-            </Link>
+      </Link>
+      <a
+          className="block md:hidden w-full transition-all duration-400 font-medium hover:text-accent px-3"
+          href="/#event"
+        >
+          Events
+        </a>
       <Link
         className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
         href="/Contact"
