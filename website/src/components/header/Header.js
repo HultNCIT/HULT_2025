@@ -31,7 +31,7 @@ function Header() {
       <Menu hidden={"hidden"} flex={"md:flex"} />
       <Link href="/" className="text-[30px]">
         <Image
-          src={"/hult_image/hult_logo.jpg"}
+          src={"/hult_image/hult1.png"}
           width={200}
           height={5}
           style={colorStyle}
