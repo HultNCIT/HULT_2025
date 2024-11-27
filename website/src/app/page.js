@@ -9,7 +9,7 @@ import Link from "next/link";
 import EventSection from "@/components/common/EventSection";
 export default function Home() {
   return (
-    <main className="">
+    <main id="home">
       <FadeInWrapper>
         <section className="hero-container min-h-fit lg:min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row">
           {/**left side */}

@@ -92,7 +92,7 @@ body {
   @apply text-secondaryContent font-normal text-base;
 }
 .footer-link-modify {
-  @apply opacity-50 hover:opacity-100;
+  @apply opacity-50 hover:opacity-100 flex justify-center md:justify-start;
 }
 .border-color {
   @apply border-accent;
