@@ -3,9 +3,11 @@ import React from "react";
 const Pill_outline = (props) => {
   return (
     <div
-      className={`border-[2px] rounded-30 ${props.color} font-medium text-nowrap px-4 py-2 inline`}
+      className={`border-[2px] rounded-30 ${props.color} text-nowrap px-4 py-2 inline`}
     >
-      {props.name} <span className="text-accent">{props.date}</span>
+      <p className="pill inline">
+       <span className={`${props.text}`}> {props.name}</span> <span className="text-accent">{props.date}</span>
+      </p>
     </div>
   );
 };

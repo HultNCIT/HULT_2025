@@ -13,18 +13,21 @@ const Footer = () => {
             alt="hultprize"
           />
           <div className="media">
-            <a href="#" className=" text-center">
+            <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-facebook-f my-auto mx-auto"></i>
-            </a>
-            <a href="#" className=" text-center">
+            </Link>
+            <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-twitter mx-auto"></i>
-            </a>
-            <a href="#" className=" text-center">
+            </Link>
+            <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-instagram mx-auto"></i>
-            </a>
-            <a href="#" className=" text-center">
+            </Link>
+            <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-linkedin-in mx-auto"></i>
-            </a>
+            </Link>
+            <Link href="#" className=" text-center mr-5">
+              <i className="fa-solid fa-envelope mx-auto"></i>
+            </Link>
           </div>
         </div>
         <div className="flex justify-between items-start gap-16">
