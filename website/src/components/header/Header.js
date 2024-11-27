@@ -4,25 +4,7 @@ import Button from "../common/Button";
 import Image from "next/image";
 import SildeBar from "../common/SildeBar";
 import Menu from "../common/Menu";
-import { useState } from "react";
-// import { KeyIcon } from "lucide-react";
 function Header() {
-  // const [on, SetOn]=useState(false)
-  // function toggleButton(){
-  //   if (!on){
-
-  //     SetOn(true)
-  //   }
-  //   else{
-  //     SetOn(false)
-  //   }
-  // }
-  // const pastWeb=[
-  //   {
-  //     "name":"HULT NCIT 2024",
-  //     "link":"https://hultprize.ncit.edu.np/"
-  //   }
-  // ]
   const colorStyle = {
     color: "black",
   };
