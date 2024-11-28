@@ -50,15 +50,15 @@ const Footer = () => {
           </div>
           <div className="text-sm flex flex-col justify-center md:justify-start gap-4">
             <h5 className="font-semibold flex justify-center md:justify-start">Contact Us</h5>
-            <a href="https://www.google.com/maps/place/Nepal+College+of+Information+Technology/@27.6713817,85.3361634,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19e8af4a5fe3:0x963d00cdf478c6b6!8m2!3d27.6713817!4d85.3387383!16s%2Fm%2F0hr0sch?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target='_blank' className="text-base md:text-lg text-content  flex items-center justify-center md:justify-start">
-              <i className="fa-solid fa-location-dot pr-1 md:justify-start"></i>Balkumari,
+            <a href="https://www.google.com/maps/place/Nepal+College+of+Information+Technology/@27.6713817,85.3361634,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb19e8af4a5fe3:0x963d00cdf478c6b6!8m2!3d27.6713817!4d85.3387383!16s%2Fm%2F0hr0sch?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target='_blank' className="text-base md:text-lg text-content  flex items-center justify-start ">
+              <i className="fa-solid fa-location-dot pr-0.5 mt-0.5"></i>Balkumari,
               Lalitpur
             </a>
-            <a className="text-base md:text-lg text-content flex justify-center md:justify-start" href="tel:+977-9862695444">
-              <i className="fa-solid fa-phone pr-1"></i>+977-9862695444
+            <a className="text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
+              <i className="fa-solid fa-phone pr-0.5 mt-1"></i>+977-9862695444
             </a>
-            <a href="mailto:hultprize@ncit.edu.np" target='blank' className="text-base md:text-lg text-content flex justify-center items-center">
-              <i className="fa-solid fa-envelope pr-1"></i>hultprize@ncit.edu.np
+            <a href="mailto:hultprize@ncit.edu.np" target='blank' className="text-base md:text-lg text-content flex justify-end items-center md:justify-start">
+              <i className="fa-solid fa-envelope pr-0.5 mt-1"></i>hultprize@ncit.edu.np
             </a>
           </div>
         </div>
