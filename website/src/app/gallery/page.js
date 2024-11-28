@@ -2,14 +2,14 @@
 import GalleryItem from "@/components/common/galary_items";
 import Footer from "@/components/footer/Footer";
 const galleryData = [
-  { imageSrc: "/demon.jpeg", title: "Samikskhya",day:'24',month:'Nov' },
-  { imageSrc: "/demon.jpeg", title: "Samikskhya ",day:'24',month:'Nov' },
-  { imageSrc: "/demon.jpeg", title: "Samikskhya ",day:'24',month:'Nov' },
-  { imageSrc: "/demon.jpeg", title: "Samikskhya ",day:'24',month:'Nov' },
-  { imageSrc: "/demon.jpeg", title: "Samikskhya " ,day:'24',month:'Nov'},
-  { imageSrc: "/demon.jpeg", title: "Samikskhya " ,day:'24',month:'Nov'},
-  { imageSrc: "/demon.jpeg", title: "Samikskhya " ,day:'24',month:'Nov'},
-  { imageSrc: "/demon.jpeg", title: "Samikskhya " ,day:'24',month:'Nov'},
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
 ];
 
 const GalleryPage = () => {
