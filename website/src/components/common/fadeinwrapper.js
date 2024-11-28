@@ -1,5 +1,4 @@
 import { useEffect, useState, useRef } from "react";
-
 const FadeInWrapper = ({ children }) => {
   const sectionRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);

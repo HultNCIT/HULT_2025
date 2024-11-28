@@ -1,12 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
     
       <div className="bg-tertiary text-white h-full w-full flex flex-col justify-center gap-3 md:flex-row md:justify-between items-center tracking-wider text-lg px-6 md:px-28 py-7 ">
         <div className="space-y-2">
-          <Image
+          <img
             src={"/hult_image/hultprize_logo_light.png"}
             width={316}
             height={4}
@@ -19,13 +18,13 @@ const Footer = () => {
             <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-twitter mx-auto"></i>
             </Link>
-            <Link href="#" className=" text-center mr-5">
+            <Link href="https://www.instagram.com/hult.prizencit/?igsh=MTEwcHM4Z2dsdGpmMA%3D%3D" target="_blank" className=" text-center mr-5">
               <i className="fa-brands fa-instagram mx-auto"></i>
             </Link>
             <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-linkedin-in mx-auto"></i>
             </Link>
-            <Link href="#" className=" text-center mr-5">
+            <Link href="mailto:hultprize@ncit.edu.np" className=" text-center mr-5">
               <i className="fa-solid fa-envelope mx-auto"></i>
             </Link>
           </div>
@@ -39,7 +38,7 @@ const Footer = () => {
             <Link className="footer-link-modify text-sm " href={"/about"}>
               About
             </Link>
-            <Link className="footer-link-modify text-sm" href={"/"}>
+            <Link className="footer-link-modify text-sm" href={"/#event"}>
               Events
             </Link>
             <a href="https://hultprize.ncit.edu.np/" className="footer-link-modify " target="blank">
