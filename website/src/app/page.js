@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import FadeInWrapper from "@/components/common/fadeinwrapper";
 import Pill_outline from "@/components/common/Pill_outline";
 import Footer from "@/components/footer/Footer";
@@ -49,7 +48,7 @@ export default function Home() {
           </div>
           {/**right side */}
           <div className="flex items-center justify-center">
-            <Image
+            <img
               src={"/hult_image/people.jpg"}
               width={400}
               height={200}
