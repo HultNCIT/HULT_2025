@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Button from "../common/Button";
-import Image from "next/image";
 import SildeBar from "../common/SildeBar";
 import Menu from "../common/Menu";
 function Header() {
@@ -12,7 +11,7 @@ function Header() {
     <nav className="fixed z-50 right-0 left-0 top-0 bg-white flex justify-between px-8 tb:px-16 py-2 items-center shadow-sm">
       <Menu hidden={"hidden"} flex={"md:flex"} />
       <Link href="/" className="text-[30px]">
-        <Image
+        <img
           src={"/hult_image/hult1.png"}
           width={200}
           height={5}
