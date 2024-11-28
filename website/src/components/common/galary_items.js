@@ -1,9 +1,8 @@
 // components/GalleryItem.js
-import Image from "next/image";
 const GalleryItem = ({ imageSrc, title,day,month }) => {  
   return (
     <div className="relative rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1">
-      <Image
+      <img
         src={imageSrc}
         alt={title}
         width={700}
