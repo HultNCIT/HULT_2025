@@ -55,10 +55,10 @@ const Footer = () => {
               Lalitpur
             </a>
             <a className="text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
-              <i className="fa-solid fa-phone pr-0.5 mt-1"></i>+977-9862695444
+              <i className="fa-solid fa-phone pr-0.5 mt-1 text-sm"></i>+977-9862695444
             </a>
             <a href="mailto:hultprize@ncit.edu.np" target='blank' className="text-base md:text-lg text-content flex justify-end items-center md:justify-start">
-              <i className="fa-solid fa-envelope pr-0.5 mt-1"></i>hultprize@ncit.edu.np
+              <i className="fa-solid fa-envelope pr-0.5 mt-0.5 text-sm"></i>hultprize@ncit.edu.np
             </a>
           </div>
         </div>
