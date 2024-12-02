@@ -15,7 +15,7 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
           <img
             src={image} // Replace with your image URL
             alt="Team Member"
-            className="w-full h-full object-cover rounded-lg transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+            className="w-full h-full object-cover rounded-lg transition-transform duration-300 ease-in-out transform group-hover:scale-100"
           />
         </div>
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
