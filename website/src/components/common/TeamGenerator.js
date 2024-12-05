@@ -6,119 +6,8 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import FadeInWrapper from "./fadeinwrapper";
-
+import { team } from "./TeamProvider";
 function TeamGenerator() {
-  const teamHult = [
-    {
-      name: "Samikshya Ghimire",
-      position: "Campus Director",
-      img_link: "/Samikshya.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/Simon.png",
-      facebook: "#",
-      instagram: "https://www.instagram.com/siimon.iii?igsh=aTlvdHU2aTV5b3A3",
-      lindedin: "http://linkedin.com/in/simon-khadka-627b4a323",
-      twitter: "#",
-    },
-    {
-      name: "Sujal Shrestha",
-      position: "Program Director",
-      img_link: "Sujal.png",
-      facebook: "https://www.facebook.com/sujalbikramthapa",
-      instagram: "https://www.instagram.com/sujalbthapa/",
-      lindedin: "https://www.linkedin.com/in/sujalbthapa/",
-      twitter: "https://twitter.com/sujalbikramth",
-    },
-    {
-      name: "Nabin Paudel",
-      position: "Technical Coordinator",
-      img_link: "Nabin.png",
-      facebook: " https://www.facebook.com/nabin.paudel.41",
-      instagram: " https://www.instagram.com/nabin_paudel24/",
-      lindedin: "https://np.linkedin.com/in/nabin-paudel-133902293",
-      twitter: " https://github.com/NabinPaudel001",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-    {
-      name: "Simon Khadka",
-      position: "Deputy Campus Director",
-      img_link: "/.png",
-      facebook: "https://www.facebook.com/samikshyaxx?mibextid=LQQJ4d",
-      instagram: "https://www.instagram.com/samikshyaxx/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "#",
-    },
-  ];
-
   return (
     <>
       <div className="md:hidden">
@@ -145,7 +34,7 @@ function TeamGenerator() {
           modules={[Pagination]}
           className="mySwiper"
         >
-          {teamHult.map((member, index) => (
+          {team.map((member, index) => (
             <SwiperSlide key={index}>
               <TeamCard
                 name={member.name}
@@ -163,7 +52,7 @@ function TeamGenerator() {
       </div>
       <FadeInWrapper>
         <div className="hidden md:grid px-6 md:px-20  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {teamHult.map((member, index) => (
+          {team.map((member, index) => (
             <TeamCard
               key={index}
               name={member.name}
