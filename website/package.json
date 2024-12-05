@@ -17,6 +17,8 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-lazy-load-image-component": "^1.6.2",
+    "react-lazyload": "^3.2.1",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.15",
     "tailwind-merge": "^2.5.4",
