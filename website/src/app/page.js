@@ -99,16 +99,16 @@ export default function Home() {
       >
         {/**Upcoming events */}
         <h1 className="font-extrabold">Upcoming Events</h1>
-        <EventSection />
+        <EventSection/>
       </section>
 
-      <FadeInWrapper>
+      {/* <FadeInWrapper>
         <section className="py-12 w-full flex flex-col justify-center items-center gap-6">
-          {/**Upcoming events */}
+          
           <h1 className="font-extrabold">Completed Events</h1>
           <h3>No events are completed.</h3>
         </section>
-      </FadeInWrapper>
+      </FadeInWrapper> */}
       {/**Gallery section */}
       <section className=""></section>
       <Footer />

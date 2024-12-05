@@ -2,7 +2,7 @@
 //registration button
 import React from "react";
 
-function RegAuth() {
+function RegAuth({link}) {
   return (
     <button
       onClick={() => {
@@ -10,7 +10,7 @@ function RegAuth() {
       }}
       className="button-anim font-medium bg-[#eb008b] text-[12px] px-3 py-[4px] sm:px-4 sm:py-[4px] sm:text-[20px] text-nowrap hover:bg-[#231f20] hover:text-[#eb008b] rounded-[30px] text-white"
     >
-      <a href="https://www.hultprize.org/startup-pre-registration-is-now-open/" target="_blank">Register Now</a>
+      <a href={link} target="_blank">Register Now</a>
     </button>
   );
 }
