@@ -1,11 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css"; // Optional for lazy loading effect
-
 const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedin }) => {
   return (
-    
     <div className="mt-12 md:mt-0 flex justify-center flex-col gap-2 mb-20 items-center  ">
       {/* Team Member Card  */}
      <div className="relative group w-[200px] h-[280px] cursor-pointer">
@@ -15,7 +11,7 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
 
         {/* White Frame Rotating Clockwise  */}
         <div className="absolute w-[95%] h-[95%] bg-white rounded-lg top-[3%] left-[4%] z-20 transition-transform duration-300 ease-in-out transform group-hover:-translate-x-2 group-hover:-translate-y-2">
-        <LazyLoadImage
+        <img
             src={image}
             alt={`${name}'s photo`}
             effect="blur"
