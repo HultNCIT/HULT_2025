@@ -9,57 +9,72 @@ import EventSection from "@/components/common/EventSection";
 export default function Home() {
   return (
     <main id="home">
-      <FadeInWrapper>
         <section className="hero-container min-h-fit lg:min-h-screen mx-auto px-10 py-12 gap-10 max-w-8xl flex flex-col items-center justify-between lg:flex-row">
           {/**left side */}
-          <div className="hero-text flex flex-col gap-6">
-            <div className="">
-              <Pill_outline
-                name="HULT PRIZE NCIT"
-                date="2025"
-                color="border-color"
+          <FadeInWrapper>
+            <div className="hero-text flex flex-col gap-6">
+            
+                <div className="">
+                  <Pill_outline
+                    name="HULT PRIZE NCIT"
+                    date="2025"
+                    color="border-color"
+                  />
+                </div>
+            
+            
+                <div className="font-extrabold">
+                  <h1 className="leading-tight">Changing the world</h1>
+                  <h1 className="text-accent leading-tight">
+                    Through Social Enterprise
+                  </h1>
+                </div>
+            
+            
+                <div className="">
+                  <p className="text-secondaryContent">
+                    The Hult Prize Foundation revolutionizes how young individuals
+                    perceive their potential as change leaders in the world. At the
+                    core of its initiatives is a $1,000,000 global startup prize.
+                    Through impactful programs, events, and training sessions, the
+                    Hult Prize has reached over a million students worldwide, paving
+                    the way for youth everywhere to actively contribute to building
+                    a better world.
+                  </p>
+                </div>
+            
+              <div className="mt-6">
+                <Link
+                  href={"/about"}
+                  className="px-5 py-4 bg-accent font-medium rounded-full text-white hover:bg-blackMain transform duration-400 hover:text-accent"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </FadeInWrapper>
+          {/**right side */}
+          <FadeInWrapper>
+            <div className="flex items-center justify-center">
+              <img
+                src={"/hult_image/people.jpg"}
+                width={400}
+                height={200}
+                alt="people"
+                className="h-[500px] min-w-[400px] shadow-xl rounded-md"
               />
             </div>
-            <div className="font-extrabold">
-              <h1 className="leading-tight">Changing the world</h1>
-              <h1 className="text-accent leading-tight">
-                Through Social Enterprise
-              </h1>
-            </div>
-            <div className="">
-              <p className="text-secondaryContent">
-                The Hult Prize Foundation revolutionizes how young individuals
-                perceive their potential as change leaders in the world. At the
-                core of its initiatives is a $1,000,000 global startup prize.
-                Through impactful programs, events, and training sessions, the
-                Hult Prize has reached over a million students worldwide, paving
-                the way for youth everywhere to actively contribute to building
-                a better world.
-              </p>
-            </div>
-            <div className="mt-6">
-              <Link
-                href={"/about"}
-                className="px-5 py-4 bg-accent font-medium rounded-full text-white hover:bg-blackMain transform duration-400 hover:text-accent"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-          {/**right side */}
-          <div className="flex items-center justify-center">
-            <img
-              src={"/hult_image/people.jpg"}
-              width={400}
-              height={200}
-              alt="people"
-              className="h-[500px] min-w-[400px] shadow-xl rounded-md"
-            />
-          </div>
+          </FadeInWrapper>
         </section>
-      </FadeInWrapper>
       {/**pink section */}
-      <section className=" flex flex-col items-center justify-center md:justify-between px-10 py-14 lg:py-24 bg-accent">
+      <section className="relative flex flex-col items-center justify-center md:justify-between px-10 py-14 lg:py-24 bg-accent">
+      <img
+                src={"/hult_image/starburst-hp.png"}
+                width={400}
+                height={200}
+                alt="people"
+                className="absolute mix-blend-difference opacity-5 -right-20 bottom-2 scale-125"
+              />
         <div className="pink-container max-w-8xl flex flex-col mx-auto gap-14 lg:gap-10 justify-between items-center lg:flex-row">
           <FadeInWrapper>
             <div className="pink-content flex flex-col gap-6 max-w-3xl items-start justify-stretch">

@@ -20,7 +20,7 @@ function Header() {
           className="w-[150px] sm:w-[170px]  md:w-[200px]"
         />
       </Link>
-      <div className="flex md:w-[350px] space-x-4 justify-between items-center">
+      <div className="flex gap-2 lg:gap-8 justify-between items-center">
         <a
           className="common"
           href="/#event"
