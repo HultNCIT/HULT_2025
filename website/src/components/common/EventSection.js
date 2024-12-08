@@ -128,7 +128,7 @@ const EventSection = () => {
         {/**completed event */}
         <div className="py-12 w-full flex flex-col justify-center items-center gap-6">
           <div>
-            <h4 className="font-extrabold">Completed Event:</h4>
+             <h1 className="font-extrabold">Completed Events</h1>
           </div>
           <div className="w-[350px] sm:w-[500px] md:w-[600px] lg:w-[400px] xl:w-[700px] 2xl:w-[950px]">
             <Swiper
