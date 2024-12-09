@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Button from "./Button";
 import FadeInWrapper from "./fadeinwrapper";
-const EventCard = ({ event, hover, transition }) => (
+const EventCard = ({ event, hover, transition ,state}) => (
   <div className={`event-card  ${hover} ${transition}`}>
     <div className="card-title w-4/6 text-right bg-blackMain px-3 py-4">
       <h6 className="font-extrabold text-white">{event.title}</h6>
@@ -15,7 +15,7 @@ const EventCard = ({ event, hover, transition }) => (
     </div>
     <div className="card-content w-full text-center flex flex-col items-center justify-between gap-4 px-4 py-4 rounded-b-2xl bg-blackMain">
       <p className="font-medium">{event.info}</p>
-      <div className="">
+      <div className={state}>
         <Button link={event.link} />
       </div>
     </div>
@@ -178,6 +178,7 @@ const EventSection = () => {
                       event={event}
                       hover="scale-75 hover:scale-90"
                       transition="card-anim"
+                      state={'hidden'}
                     />
                   </SwiperSlide>
                 ))
