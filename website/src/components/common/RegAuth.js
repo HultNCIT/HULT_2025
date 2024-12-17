@@ -8,7 +8,7 @@ function RegAuth({link}) {
       onClick={() => {
         console.log("clicked");
       }}
-      className="button-anim font-medium bg-[#eb008b] text-[12px] px-3 py-[4px] sm:px-4 sm:py-[4px] sm:text-[20px] text-nowrap hover:bg-[#231f20] hover:text-[#eb008b] hover:outline hover:outline-accent hover:outline-[0.15px] rounded-[30px] text-white"
+      className="button-anim font-medium bg-shiny text-[12px] px-3 py-[4px] bg-gradient-to-r from-[#eb008b] via-[#ff88cdb0] to-[#eb008b] sm:px-4 sm:py-[4px] sm:text-[20px] text-nowrap  hover:text-white  hover:outline animate-shiny  hover:outline-[0.15px] rounded-[30px] text-white"
     >
       <a href={link} target="_blank">Register Now</a>
     </button>
