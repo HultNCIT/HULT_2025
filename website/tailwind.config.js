@@ -6,6 +6,18 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    animation: {
+      shiny: "shiny 3.5s linear infinite",
+    },
+    keyframes: {
+      shiny: {
+        '0%': { backgroundPosition: '200% 50%' },  
+        '100%': { backgroundPosition: '0 50%' }
+      },
+    },
+    backgroundSize: {
+      'shiny': '200% 100%', // Makes the gradient wide enough to move
+    },
     screens: {
       xs: "480px", // Extra Small (e.g., small phones)
       sm: "576px", // Small (e.g., larger phones)

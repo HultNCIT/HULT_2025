@@ -201,13 +201,13 @@ const data = [
     info: "Come join us this Friday in our much awaited Info Session. ",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfjUM3Cc4V3oeD4_Q2KPPDWTh_2xODPMhQiLvPxRyr_P-iZ4A/viewform",
   },
-  // {
-  //   title: "EVENT 2",
-  //   state: "upcoming",
-  //   date: "2024-12-7",
-  //   info: "Lorem ipsum dolor sit amet, consectetur",
-  //   link: "#",
-  // },
+  {
+    title: "Hult Experience Sharing",
+    state: "upcoming",
+    date: "2024-12-17",
+    info: "Come join us this Tuesday in our much awaited Experience Sharing",
+    link: "#",
+  },
   // {
   //   title: "EVENT 3",
   //   state: "upcoming",
