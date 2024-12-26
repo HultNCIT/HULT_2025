@@ -10,7 +10,7 @@ import FadeInWrapper from "./fadeinwrapper";
 const EventCard = ({ event, hover, transition ,state}) => (
   <div className={`event-card  ${hover} ${transition}`}>
     <div className="card-title w-4/6 text-right bg-blackMain px-3 py-4">
-      <h6 className="font-extrabold text-white">{event.title}</h6>
+      <h6 className="font-bold text-white">{event.title}</h6>
       <p className="text-white ">{new Date(event.date).toLocaleDateString()}</p>
     </div>
     <div className="card-content w-full text-center flex flex-col items-center justify-between gap-4 px-4 py-4 rounded-b-2xl bg-blackMain">
@@ -208,34 +208,55 @@ const data = [
     info: "Come join us this Tuesday in our much awaited Experience Sharing",
     link: "#",
   },
-  // {
-  //   title: "EVENT 3",
-  //   state: "upcoming",
-  //   date: "2024-12-30",
-  //   info: "Lorem Lorem ipsum dolor sit amet, consectetur",
-  //   link: "#",
-  // },
-  // {
-  //   title: "EVENT 5",
-  //   state: "upcoming",
-  //   date: "2024-12-30",
-  //   info: "Lorem Lorem ipsum dolor sit amet, consectetur",
-  //   link: "#",
-  // },
-  // {
-  //   title: "EVENT 6",
-  //   state: "upcoming",
-  //   date: "2024-12-30",
-  //   info: "Lorem Lorem ipsum dolor sit amet, consectetur",
-  //   link: "#",
-  // },
-  // {
-  //   title: "EVENT 7",
-  //   state: "upcoming",
-  //   date: "2024-12-30",
-  //   info: "Lorem Lorem ipsum dolor sit amet, consectetur",
-  //   link: "#",
-  // },
+  {
+    title: "Social Entrepreneurship Landscape & Startup Market",
+    state: "upcoming",
+    date: "2025-1-3",
+    info: "Join us for Social Entrepreneurship Landscape & Startup Market ",
+    link: "#",
+  },
+  {
+    title: "Technopreneurship & Youth Entrepreneurship Session",
+    state: "upcoming",
+    date: "2025-1-7",
+    info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
+    link: "#",
+  },
+  {
+    title: "SDG Aligned Career Counseling",
+    state: "upcoming",
+    date: "2025-1-9",
+    info: "Join us for SDG Aligned Career Counseling",
+    link: "#",
+  },
+  {
+    title: "Public Speaking and Presentation Workshop",
+    state: "upcoming",
+    date: "2025-1-12",
+    info: "Join us for Public Speaking and Presentation Workshop",
+    link: "#",
+  },
+  {
+    title: "Business Model Canvas",
+    state: "upcoming",
+    date: "2025-1-15",
+    info: "Join to know all about Business Model Canvas",
+    link: "#",
+  },
+  {
+    title: "Pitch Demo",
+    state: "upcoming",
+    date: "2025-1-21",
+    info: "Receive a valuable feedbacksfrom our Pitch Demo session",
+    link: "#",
+  },
+  {
+    title: "Finale",
+    state: "upcoming",
+    date: "2025-1-24",
+    info: "Pitch your idea to the judges",
+    link: "#",
+  },
 ];
 
 export default EventSection;

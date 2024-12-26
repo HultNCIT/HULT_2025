@@ -14,7 +14,6 @@ const TeamCard = ({ name, position, image, facebook, twitter, instagram, linkedi
         <img
             src={image}
             alt={`${name}'s photo`}
-            effect="blur"
             className="w-full h-[265px] object-cover rounded-lg transition-transform duration-300 ease-in-out transform"
           />
         </div>
