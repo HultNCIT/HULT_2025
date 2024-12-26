@@ -10,7 +10,7 @@ const FadeInWrapper = ({ children }) => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.34 } // Trigger when 20% of the section is visible
+      { threshold: 0.29 } // Trigger when 20% of the section is visible
     );
 
     if (sectionRef.current) {
