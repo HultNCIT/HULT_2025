@@ -18,7 +18,7 @@ export const team = [
       twitter: "#",
     },
     {
-      name: "Sujal Shrestha",
+      name: "Sujal Bikram Thapa",
       position: "Program Director",
       img_link: "Sujal.png",
       facebook: "https://www.facebook.com/sujalbikramthapa",
@@ -72,6 +72,24 @@ export const team = [
       twitter: "#",
     },
     {
+      name: "Prayush Bhandar",
+      position: "Startup Coordinator",
+      img_link: "/prayush.png",
+      facebook: "https://www.facebook.com/pra.yush.50?mibextid=ZbWKwL",
+      instagram: "https://www.instagram.com/pra_yush60/",
+      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
+      twitter: "https://x.com/BhandariPrayush?t=OgymbWFhr7ZsCg4q8Oc4ow&s=09",
+    },
+    {
+      name: "Prashubha Pathak",
+      position: "Media Coordinator",
+      img_link: "/prashubha.png",
+      facebook: "https://www.facebook.com/share/14kqPrDAx5/",
+      instagram: "https://www.instagram.com/prashubha_pathak?igsh=eGpubTdoMTA0bWVh",
+      lindedin: "https://www.linkedin.com/in/prashubha-pathak-1077a32b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "#",
+    },
+    {
       name: "Aman Sheikh",
       position: "Technical Member",
       img_link: "/Aman.png",
@@ -87,24 +105,6 @@ export const team = [
       facebook: "https://www.facebook.com/profile.php?id=100075602340579",
       instagram: "https://www.instagram.com/risalrushab/",
       lindedin: "https://www.linkedin.com/in/rushabofficials/",
-      twitter: "#",
-    },
-    {
-      name: "Prashubha Pathak",
-      position: "Social Media Manager",
-      img_link: "/prashubha.png",
-      facebook: "https://www.facebook.com/share/14kqPrDAx5/",
-      instagram: "https://www.instagram.com/prashubha_pathak?igsh=eGpubTdoMTA0bWVh",
-      lindedin: "https://www.linkedin.com/in/prashubha-pathak-1077a32b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      twitter: "#",
-    },
-    {
-      name: "Pushpa Sah",
-      position: "Academic Member",
-      img_link: "/Puspa.png",
-      facebook: "https://www.facebook.com/pushpa.shah.9469545",
-      instagram: "https://www.instagram.com/pushpasah_07/",
-      lindedin: "#",
       twitter: "#",
     },
     {
@@ -125,15 +125,7 @@ export const team = [
       lindedin: "https://www.linkedin.com/in/prashant-chhetri-4867a62b6/",
       twitter: "https://x.com/PChhetrii84813?t=H_tyQ2W3QtIYr2rngCjiDw&s=07",
     },
-    {
-      name: "Prayush Bhandar",
-      position: "Logistics Member",
-      img_link: "/prayush.png",
-      facebook: "https://www.facebook.com/pra.yush.50?mibextid=ZbWKwL",
-      instagram: "https://www.instagram.com/pra_yush60/",
-      lindedin: "https://www.linkedin.com/in/samikshya-ghimire-2222222xx/",
-      twitter: "https://x.com/BhandariPrayush?t=OgymbWFhr7ZsCg4q8Oc4ow&s=09",
-    },
+
     {
       name: "Sushant Adhikari",
       position: "Logistics Member",
@@ -141,6 +133,16 @@ export const team = [
       facebook: "https://www.facebook.com/profile.php?id=100068563911770&mibextid=ZbWKwL",
       instagram: "https://www.instagram.com/_sushant7_7/",
       lindedin: "https://www.linkedin.com/in/sushant-adhikari-6694a8212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      twitter: "#",
+    },
+      
+    {
+      name: "Pushpa Sah",
+      position: "Volunteer",
+      img_link: "/Puspa.png",
+      facebook: "https://www.facebook.com/pushpa.shah.9469545",
+      instagram: "https://www.instagram.com/pushpasah_07/",
+      lindedin: "#",
       twitter: "#",
     },
   ];
