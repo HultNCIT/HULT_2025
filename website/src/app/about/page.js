@@ -117,7 +117,6 @@ export default function AboutPage() {
           <div className="flex justify-center pb-6 md:pb-10 w-full">
             <h2 className=" font-bold border-b-4 border-accent">Our Team</h2>
           </div>
-
           <TeamGenerator />
         </div>
       </div>
