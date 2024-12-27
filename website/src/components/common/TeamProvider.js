@@ -72,7 +72,7 @@ export const team = [
       twitter: "#",
     },
     {
-      name: "Prayush Bhandar",
+      name: "Kamal Bahadur Bhandari",
       position: "Startup Coordinator",
       img_link: "/prayush.png",
       facebook: "https://www.facebook.com/pra.yush.50?mibextid=ZbWKwL",
@@ -108,15 +108,6 @@ export const team = [
       twitter: "#",
     },
     {
-      name: "Nisha Singh",
-      position: " Outreach/Sponsorship member ",
-      img_link: "/Nisha.png",
-      facebook: "https://www.facebook.com/profile.php?id=100091953543551&mibextid=ZbWKwL",
-      instagram: "#",
-      lindedin: "#",
-      twitter: "#",
-    },
-    {
       name: "Prashanta Rokaya",
       position: "Logistics Member",
       img_link: "/Prashanta.png",
@@ -125,7 +116,6 @@ export const team = [
       lindedin: "https://www.linkedin.com/in/prashant-chhetri-4867a62b6/",
       twitter: "https://x.com/PChhetrii84813?t=H_tyQ2W3QtIYr2rngCjiDw&s=07",
     },
-
     {
       name: "Sushant Adhikari",
       position: "Logistics Member",
@@ -135,15 +125,32 @@ export const team = [
       lindedin: "https://www.linkedin.com/in/sushant-adhikari-6694a8212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       twitter: "#",
     },
-      
     {
-      name: "Pushpa Sah",
-      position: "Volunteer",
-      img_link: "/Puspa.png",
-      facebook: "https://www.facebook.com/pushpa.shah.9469545",
-      instagram: "https://www.instagram.com/pushpasah_07/",
+      name: "Sushmita Khatri",
+      position: "Media Team",
+      img_link: "/Sushmita.png",
+      facebook: "https://www.facebook.com/sushmita.khatri.507?mibextid=ZbWKwL",
+      instagram: "https://www.instagram.com/invites/contact/?igsh=16llkz0gsfm1f&utm_content=53b1n78",
       lindedin: "#",
       twitter: "#",
     },
+    {
+      name: "Sahil Sinha",
+      position: "Outreach/Sponsorship Member",
+      img_link: "/Sahil.png",
+      facebook: "https://www.facebook.com/profile.php?id=100005467789064&mibextid=ZbWKwL",
+      instagram: "https://www.instagram.com/sahil_sinha7/profilecard/?igsh=cHEyOGgzdDZ1bGI2",
+      lindedin: "#",
+      twitter: "#",
+    },
+    {
+      name: "Nisha Singh",
+      position: " Outreach/Sponsorship member ",
+      img_link: "/Nisha.png",
+      facebook: "https://www.facebook.com/profile.php?id=100091953543551&mibextid=ZbWKwL",
+      instagram: "#",
+      lindedin: "#",
+      twitter: "#",
+    },  
   ];
  
