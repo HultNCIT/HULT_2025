@@ -4,13 +4,13 @@ import Footer from "@/components/footer/Footer";
 // Add Photo after cropping it to 3:4 Aspect Ratio.
 const galleryData = [
   { imageSrc: "/events/Infosession.jpg", title: "Info Session",day:'06',month:'Dec' },
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
-  { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
 ];
 
 const GalleryPage = () => {
