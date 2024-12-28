@@ -1,9 +1,9 @@
 import React from 'react'
 import RegAuth from './RegAuth'
 //registration button 
-function Button({link}) {
+function Button({link,state}) {
   return (
-    <RegAuth link={link}/>
+    <RegAuth link={link} state={state}/>
   )
 }
 

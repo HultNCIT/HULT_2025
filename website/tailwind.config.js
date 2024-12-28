@@ -7,16 +7,16 @@ module.exports = {
   ],
   theme: {
     animation: {
-      shiny: "shiny 3.5s linear infinite",
+      shiny: "shiny 7s linear infinite",
     },
     keyframes: {
       shiny: {
-        '0%': { backgroundPosition: '200% 50%' },  
-        '100%': { backgroundPosition: '0 50%' }
+        '0%': { backgroundPosition: '300% 60%' },  
+        '100%': { backgroundPosition: '0 60%' }
       },
     },
     backgroundSize: {
-      'shiny': '200% 100%', // Makes the gradient wide enough to move
+      'shiny': '300% 100%', // Makes the gradient wide enough to move
     },
     screens: {
       xs: "480px", // Extra Small (e.g., small phones)
