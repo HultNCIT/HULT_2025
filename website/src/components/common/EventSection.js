@@ -7,19 +7,21 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Button from "./Button";
 import FadeInWrapper from "./fadeinwrapper";
-const EventCard = ({ event, hover, transition ,state}) => (
-  <div className={`event-card  ${hover} ${transition}`}>
-    <div className="card-title w-4/6 text-right bg-blackMain px-3 py-4">
-      <h6 className="font-bold text-white">{event.title}</h6>
-      <p className="text-white ">{new Date(event.date).toLocaleDateString()}</p>
-    </div>
-    <div className="card-content w-full text-center flex flex-col items-center justify-between gap-4 px-4 py-4 rounded-b-2xl bg-blackMain">
-      <p className="font-medium">{event.info}</p>
-      <div className={state}>
-        <Button link={event.link} />
+const EventCard = ({ event, hover, transition ,state,image}) => (
+  <div className={` event-card ${hover} ${transition} relative` }>
+     <img src={event.image} className="fixed top-0 h-full object-cover rounded-xl"/>
+      <div className="card-title w-4/6 text-right bg-blackMain px-3 py-4 z-50">
+        <h6 className="font-bold text-white">{event.title}</h6>
+        <p className="text-white ">{new Date(event.date).toLocaleDateString()}</p>
+      </div>
+      <div className="card-content w-full z-50 text-center flex flex-col items-center justify-between gap-4 px-4 py-4 rounded-b-2xl bg-blackMain">
+        <p className="font-medium">{event.info}</p>
+        <div className={state}>
+          <Button link={event.link} />
+        </div>
       </div>
     </div>
-  </div>
+ 
 );
 
 const EventSection = () => {
@@ -197,6 +199,7 @@ const data = [
   {
     title: "Info Session",
     state: "current",
+    image:"/events/eventcomplete1.jpg",
     date: "2024-12-6",
     info: "Come join us this Friday in our much awaited Info Session. ",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfjUM3Cc4V3oeD4_Q2KPPDWTh_2xODPMhQiLvPxRyr_P-iZ4A/viewform",
@@ -205,6 +208,7 @@ const data = [
     title: "Hult Experience Sharing",
     state: "upcoming",
     date: "2024-12-17",
+    image:"/events/eventComplete2.jpg",
     info: "Come join us this Tuesday in our much awaited Experience Sharing",
     link: "#",
   },
@@ -212,6 +216,7 @@ const data = [
     title: "Social Entrepreneurship Landscape & Startup Market",
     state: "upcoming",
     date: "2025-1-3",
+    // image:"",
     info: "Join us for Social Entrepreneurship Landscape & Startup Market ",
     link: "https://forms.gle/25gzf6xjcL3BP1MQA",
   },
@@ -219,6 +224,7 @@ const data = [
     title: "Technopreneurship & Youth Entrepreneurship Session",
     state: "upcoming",
     date: "2025-1-7",
+    // image:"",
     info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
@@ -226,6 +232,7 @@ const data = [
     title: "SDG Aligned Career Counseling",
     state: "upcoming",
     date: "2025-1-9",
+    // image:"",
     info: "Join us for SDG Aligned Career Counseling",
     link: "https://forms.gle/cod45Nhdc8v15fTR9",
   },
@@ -233,6 +240,7 @@ const data = [
     title: "Public Speaking and Presentation Workshop",
     state: "upcoming",
     date: "2025-1-12",
+    // image:"",
     info: "Join us for Public Speaking and Presentation Workshop",
     link: "#",
   },
@@ -240,6 +248,7 @@ const data = [
     title: "Business Model Canvas",
     state: "upcoming",
     date: "2025-1-15",
+    // image:"",
     info: "Join to know all about Business Model Canvas",
     link: "#",
   },
@@ -247,6 +256,7 @@ const data = [
     title: "Pitch Demo",
     state: "upcoming",
     date: "2025-1-21",
+    // image:"",
     info: "Receive a valuable feedbacksfrom our Pitch Demo session",
     link: "#",
   },
@@ -254,6 +264,7 @@ const data = [
     title: "Finale",
     state: "upcoming",
     date: "2025-1-24",
+    // image:"",
     info: "Pitch your idea to the judges",
     link: "#",
   },

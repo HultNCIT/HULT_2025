@@ -29,6 +29,9 @@ module.exports = {
       "4xl": "2560px", // For 2K and 4K displays
     },
     extend: {
+      backgroundImage:{
+        'testImg':"url('/events/eventComplete1.jpg')"
+      },
       maxWidth: {
         "8xl": "96rem", // 1536px
         "9xl": "112rem", // 1792px
