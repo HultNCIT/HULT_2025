@@ -6,8 +6,8 @@ const GalleryItem = ({ imageSrc, title,day,month }) => {
         src={imageSrc}
         alt={title}
         width={700}
-        height={700}
-        className={`rounded-t-lg object-cover w-full h-full`}
+        height={1000}
+        className={`rounded-lg object-cover w-full h-full`}
       />
       <div className={`absolute -bottom-2 w-64 -left-2 rounded-lg  text-center bg-white text-blackMain shadow-2xl flex items-center `}>
         <div className="bg-accent text-white font-poppins font-semibold h-full  p-1 w-20 rounded-l-lg">
