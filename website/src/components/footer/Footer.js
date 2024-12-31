@@ -12,16 +12,16 @@ const Footer = () => {
             alt="hultprize"
           />
           <div className="media">
-            <Link href="#" className=" text-center mr-5">
+            <Link href="https://www.facebook.com/HultPrizeNcit" target="_blank" className=" text-center mr-5">
               <i className="fa-brands fa-facebook-f my-auto mx-auto"></i>
             </Link>
-            <Link href="#" className=" text-center mr-5">
-              <i className="fa-brands fa-twitter mx-auto"></i>
+            <Link href="https://github.com/HultNCIT" target="_blank" className=" text-center mr-5">
+              <i className="fa-brands fa-github mx-auto"></i>
             </Link>
-            <Link href="https://www.instagram.com/hult.prizencit/?igsh=MTEwcHM4Z2dsdGpmMA%3D%3D" target="_blank" className=" text-center mr-5">
+            <Link href="https://www.instagram.com/ht.atncit/" target="_blank" className=" text-center mr-5">
               <i className="fa-brands fa-instagram mx-auto"></i>
             </Link>
-            <Link href="#" className=" text-center mr-5">
+            <Link href="https://np.linkedin.com/company/hult-prize-at-ncit-pokhara-university" target="_blank" className=" text-center mr-5">
               <i className="fa-brands fa-linkedin-in mx-auto"></i>
             </Link>
             <Link href="mailto:hultprize@ncit.edu.np" className=" text-center mr-5">
