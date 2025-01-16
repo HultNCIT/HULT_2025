@@ -15,9 +15,6 @@ const Footer = () => {
             <Link href="#" className=" text-center mr-5">
               <i className="fa-brands fa-facebook-f my-auto mx-auto"></i>
             </Link>
-            <Link href="#" className=" text-center mr-5">
-              <i className="fa-brands fa-twitter mx-auto"></i>
-            </Link>
             <Link href="https://www.instagram.com/hult.prizencit/?igsh=MTEwcHM4Z2dsdGpmMA%3D%3D" target="_blank" className=" text-center mr-5">
               <i className="fa-brands fa-instagram mx-auto"></i>
             </Link>
@@ -41,9 +38,9 @@ const Footer = () => {
             <Link className="footer-link-modify link-hover-anim text-sm" href={"/#event"}>
               Events
             </Link>
-            <a href="https://hultprize.ncit.edu.np/" className="footer-link-modify " target="blank">
+            {/* <a href="https://hultprize.ncit.edu.np/" className="footer-link-modify " target="blank">
               History
-            </a>
+            </a> */}
             <Link className="footer-link-modify text-sm" href="/Contact">
               Contact
             </Link>
@@ -56,9 +53,9 @@ const Footer = () => {
                 Lalitpur
               </p>
             </a>
-            <a className=" link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
+            {/* <a className=" link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
               <i className="fa-solid fa-phone pr-0.5 mt-1 text-sm"></i><p className="text-sm">+977-9862695444</p>
-            </a>
+            </a> */}
             <a className="link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify-end items-center md:justify-start" href="mailto:hultprize@ncit.edu.np" target='blank' >
               <i className="fa-solid fa-envelope pr-0.5 mt-0.5 text-sm"></i><p className="text-sm">hultprize@ncit.edu.np</p>
             </a>

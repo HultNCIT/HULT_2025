@@ -197,6 +197,7 @@ const EventSection = () => {
 
 const data = [
   {
+    //completed
     title: "Info Session",
     state: "current",
     image:"/events/eventcomplete1.jpg",
@@ -205,6 +206,7 @@ const data = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfjUM3Cc4V3oeD4_Q2KPPDWTh_2xODPMhQiLvPxRyr_P-iZ4A/viewform",
   },
   {
+    //completed
     title: "Hult Experience Sharing",
     state: "upcoming",
     date: "2024-12-17",
@@ -213,41 +215,42 @@ const data = [
     link: "#",
   },
   {
+    //completed
     title: "Social Entrepreneurship Landscape & Startup Market",
     state: "upcoming",
     date: "2025-1-3",
-    // image:"",
+    image:"/events/event3.jpg",
     info: "Join us for Social Entrepreneurship Landscape & Startup Market ",
     link: "https://forms.gle/25gzf6xjcL3BP1MQA",
   },
   {
-    title: "Technopreneurship & Youth Entrepreneurship Session",
+    title: "Future Innovators Session",
     state: "upcoming",
-    date: "2025-1-7",
+    date: "2025-1-17",
     // image:"",
     info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
   {
-    title: "SDG Aligned Career Counseling",
+    title: "Concept to Pitch",
     state: "upcoming",
-    date: "2025-1-9",
+    date: "2025-1-24",
     // image:"",
-    info: "Join us for SDG Aligned Career Counseling",
-    link: "https://forms.gle/cod45Nhdc8v15fTR9",
+    info: "Join us to gain Concept to Pitch: Crafting Winning Ideas",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSf07uI2Ks3nyQS-Tmq5qWRQ8btS8giYSfXhYTmp4jTIrp7G_Q/viewform",
   },
-  {
-    title: "Public Speaking and Presentation Workshop",
-    state: "upcoming",
-    date: "2025-1-12",
-    // image:"",
-    info: "Join us for Public Speaking and Presentation Workshop",
-    link: "#",
-  },
+  // {
+  //   title: "Public Speaking and Presentation Workshop",
+  //   state: "upcoming",
+  //   date: "2025-1-12",
+  //   // image:"",
+  //   info: "Join us for Public Speaking and Presentation Workshop",
+  //   link: "#",
+  // },
   {
     title: "Business Model Canvas",
     state: "upcoming",
-    date: "2025-1-15",
+    date: "2025-1-22",
     // image:"",
     info: "Join to know all about Business Model Canvas",
     link: "#",
@@ -255,7 +258,7 @@ const data = [
   {
     title: "Pitch Demo",
     state: "upcoming",
-    date: "2025-1-21",
+    date: "2025-1-28",
     // image:"",
     info: "Receive a valuable feedbacksfrom our Pitch Demo session",
     link: "#",
@@ -263,7 +266,7 @@ const data = [
   {
     title: "Finale",
     state: "upcoming",
-    date: "2025-1-24",
+    date: "2025-1-31",
     // image:"",
     info: "Pitch your idea to the judges",
     link: "#",
