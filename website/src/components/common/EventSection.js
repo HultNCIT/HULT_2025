@@ -198,18 +198,26 @@ const EventSection = () => {
 const data = [
   {
     title: "Info Session",
-    state: "current",
-    image:"/events/eventcomplete1.jpg",
+    state: "completed",
+    image:"/events/event1.jpg",
     date: "2024-12-6",
-    info: "Come join us this Friday in our much awaited Info Session. ",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfjUM3Cc4V3oeD4_Q2KPPDWTh_2xODPMhQiLvPxRyr_P-iZ4A/viewform",
+    info: "The very first Hult Prize Info Session at NCIT 24/25. ",
+    link: "#",
   },
   {
     title: "Hult Experience Sharing",
-    state: "upcoming",
+    state: "completed",
     date: "2024-12-17",
-    image:"/events/eventComplete2.jpg",
-    info: "Come join us this Tuesday in our much awaited Experience Sharing",
+    image:"/events/event2.jpg",
+    info: "Experience Sharing By Campus Director 2023/24",
+    link: "#",
+  },
+  {
+    title: "Info Sharing",
+    state: "completed",
+    date: "2024-12-23",
+    image:"/events/event3.jpg",
+    info: "An unexpected,info session on Hult Prize at a workshop by NCIT",
     link: "#",
   },
   {
@@ -261,7 +269,7 @@ const data = [
     link: "#",
   },
   {
-    title: "Finale",
+    title: "Grand Finale",
     state: "upcoming",
     date: "2025-1-24",
     // image:"",
