@@ -41,9 +41,6 @@ const Footer = () => {
             <Link className="footer-link-modify link-hover-anim text-sm" href={"/#event"}>
               Events
             </Link>
-            <a href="https://hultprize.ncit.edu.np/" className="footer-link-modify " target="blank">
-              History
-            </a>
             <Link className="footer-link-modify text-sm" href="/Contact">
               Contact
             </Link>
