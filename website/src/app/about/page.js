@@ -12,7 +12,7 @@ export default function AboutPage() {
           {/* Left Image Section */}
           <div className="w-full md:w-1/3">
             <img
-              src="image.png" // Replace with your image path
+              src="img.jpg" // Replace with your image path
               alt="Hult Prize Event"
               className="rounded-lg shadow-lg object-cover w-full h-full"
             />
@@ -107,7 +107,7 @@ export default function AboutPage() {
           {/* Right Image Section */}
           <div className="w-full md:w-1/3 my-4">
             <img
-              src="image.png" // Replace with your image path
+              src="img.jpg" // Replace with your image path
               alt="Hult Prize Event"
               className="rounded-lg shadow-lg object-cover w-full h-full"
             />

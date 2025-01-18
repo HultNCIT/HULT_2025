@@ -57,7 +57,7 @@ export default function Home() {
           <FadeInWrapper>
             <div className="flex items-center justify-center">
               <img
-                src={"/hult_image/people.jpg"}
+                src={"/img.jpg"}
                 width={400}
                 height={200}
                 alt="people"
