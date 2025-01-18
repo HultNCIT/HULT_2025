@@ -232,6 +232,14 @@ const data = [
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
   {
+    title: "Business Model Canvas",
+    state: "upcoming",
+    date: "2025-1-22",
+    // image:"",
+    info: "Join to know all about Business Model Canvas",
+    link: "#",
+  },
+  {
     title: "Concept to Pitch",
     state: "upcoming",
     date: "2025-1-24",
@@ -247,14 +255,7 @@ const data = [
   //   info: "Join us for Public Speaking and Presentation Workshop",
   //   link: "#",
   // },
-  {
-    title: "Business Model Canvas",
-    state: "upcoming",
-    date: "2025-1-22",
-    // image:"",
-    info: "Join to know all about Business Model Canvas",
-    link: "#",
-  },
+
   {
     title: "Pitch Demo",
     state: "upcoming",
