@@ -33,7 +33,7 @@ function Menu(props) {
         </a>
       <Link
         className="block w-full transition-all duration-400 font-medium hover:text-accent px-3"
-        href="/Contact" onClick={props.onLinkClick}
+        href="/contact" onClick={props.onLinkClick}
       >
         Contacts
       </Link>
