@@ -227,7 +227,7 @@ const data = [
     title: "Future Innovators Session",
     state: "upcoming",
     date: "2025-1-17",
-    // image:"",
+    image:"/events/techno.webp",
     info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
@@ -253,7 +253,7 @@ const data = [
     date: "2025-1-22",
     // image:"",
     info: "Join to know all about Business Model Canvas",
-    link: "#",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScKy6yf-o6depFL3MFLhPOlkClwxOgPv-ze-UyA1AUnlvXu0Q/viewform?usp=dialog",
   },
   {
     title: "Pitch Demo",
