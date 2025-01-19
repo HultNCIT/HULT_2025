@@ -52,6 +52,7 @@ const Contact = () => {
                   id="message"
                   rows={5}
                   placeholder="Your Message"
+                  spellCheck={false}
                   required
                 ></textarea>
                 <button className="button-anime mt-2 max-w-3xl" type="submit">

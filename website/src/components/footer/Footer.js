@@ -53,9 +53,9 @@ const Footer = () => {
                 Lalitpur
               </p>
             </a>
-            {/* <a className=" link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
-              <i className="fa-solid fa-phone pr-0.5 mt-1 text-sm"></i><p className="text-sm">+977-9862695444</p>
-            </a> */}
+            <a className=" link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify center" href="tel:+977-9862695444">
+              <i className="fa-solid fa-phone pr-0.5 mt-1 text-sm"></i><p className="text-sm">+977-9849951556</p>
+            </a>
             <a className="link-hover-anim opacity-75 hover:opacity-100 hover:text-white text-base md:text-lg text-content flex justify-end items-center md:justify-start" href="mailto:hultprize@ncit.edu.np" target='blank' >
               <i className="fa-solid fa-envelope pr-0.5 mt-0.5 text-sm"></i><p className="text-sm">hultprize@ncit.edu.np</p>
             </a>
