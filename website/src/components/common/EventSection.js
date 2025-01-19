@@ -200,9 +200,9 @@ const data = [
     //completed
     title: "Info Session",
     state: "current",
-    image:"/events/eventcomplete1.jpg",
+    image:"/events/eventComplete1.jpg",
     date: "2024-12-6",
-    info: "Come join us this Friday in our much awaited Info Session. ",
+    info: "Our First Info Session, Kicking off HULT PRIZE NCIT 2025",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfjUM3Cc4V3oeD4_Q2KPPDWTh_2xODPMhQiLvPxRyr_P-iZ4A/viewform",
   },
   {
@@ -210,8 +210,8 @@ const data = [
     title: "Hult Experience Sharing",
     state: "upcoming",
     date: "2024-12-17",
-    image:"/events/eventComplete2.jpg",
-    info: "Come join us this Tuesday in our much awaited Experience Sharing",
+    image:"/events/eventcomplete2.JPG",
+    info: "Much Awaited Experience Sharing by Hult Prize Alumni",
     link: "#",
   },
   {
@@ -220,16 +220,24 @@ const data = [
     state: "upcoming",
     date: "2025-1-3",
     image:"/events/landscape.jpg",
-    info: "Join us for Social Entrepreneurship Landscape & Startup Market ",
+    info: "Social Entrepreneurship Landscape & Startup Market Session ",
     link: "https://forms.gle/25gzf6xjcL3BP1MQA",
   },
   {
     title: "Future Innovators Session",
     state: "upcoming",
     date: "2025-1-17",
-    // image:"",
-    info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
+    image:"/events/future_innovators.jpg",
+    info: "Future Innovators Session for Aspiring Entrepreneurs",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
+  },
+  {
+    title: "Business Model Canvas",
+    state: "upcoming",
+    date: "2025-1-22",
+    // image:"",
+    info: "Join to know all about Business Model Canvas",
+    link: "#",
   },
   {
     title: "Concept to Pitch",
@@ -247,14 +255,7 @@ const data = [
   //   info: "Join us for Public Speaking and Presentation Workshop",
   //   link: "#",
   // },
-  {
-    title: "Business Model Canvas",
-    state: "upcoming",
-    date: "2025-1-22",
-    // image:"",
-    info: "Join to know all about Business Model Canvas",
-    link: "#",
-  },
+
   {
     title: "Pitch Demo",
     state: "upcoming",
