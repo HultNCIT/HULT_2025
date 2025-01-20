@@ -260,7 +260,7 @@ const data = [
     title: "Pitch Demo",
     state: "upcoming",
     date: "2025-1-28",
-    image:"events/demo_pitch.jpg",
+    image:"events/demopitch.jpg",
     info: "Receive a valuable feedbacksfrom our Pitch Demo session",
     link: "https://www.hultprize.org/startup-pre-registration-is-now-open/",
   },
