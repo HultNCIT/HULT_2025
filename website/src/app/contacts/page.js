@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Pill_outline from "@/components/common/Pill_outline";
-import Footer from "@/components/footer/Footer";
-import Button from "@/components/common/Button";
-import FadeInWrapper from "@/components/common/fadeinwrapper";
+import Pill_outline from "../../components/common/Pill_outline";
+import Footer from "../../components/footer/Footer";
+import Button from "../../components/common/Button";
+import FadeInWrapper from "../../components/common/fadeinwrapper";
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <section className="flex flex-col min-h-screen  justify-between">
       <div className="contact-container mx-auto lg:max-w-8xl my-auto py-12 px-10">
@@ -94,4 +94,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;

@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import FadeInWrapper from "@/components/common/fadeinwrapper";
-import Pill_outline from "@/components/common/Pill_outline";
-import Footer from "@/components/footer/Footer";
-import Countdown from "@/components/common/Countdown";
+import FadeInWrapper from "../components/common/fadeinwrapper";
+import Pill_outline from "../components/common/Pill_outline";
+import Footer from "../components/footer/Footer";
+import Countdown from "../components/common/Countdown";
 import Link from "next/link";
-import EventSection from "@/components/common/EventSection";
+import EventSection from "../components/common/EventSection";
 export default function Home() {
   return (
     <main id="home">
