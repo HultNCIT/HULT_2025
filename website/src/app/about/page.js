@@ -1,8 +1,8 @@
 "use client";
-import FadeInWrapper from "@/components/common/fadeinwrapper";
-import Pill_outline from "@/components/common/Pill_outline";
-import TeamGenerator from "@/components/common/TeamGenerator";
-import Footer from "@/components/footer/Footer";
+import FadeInWrapper from "../../components/common/fadeinwrapper";
+import Pill_outline from "../../components/common/Pill_outline";
+import TeamGenerator from "../../components/common/TeamGenerator";
+import Footer from "../../components/footer/Footer";
 export default function AboutPage() {
   return (
     <section>

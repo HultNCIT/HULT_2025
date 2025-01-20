@@ -1,6 +1,6 @@
 'use client';
-import GalleryItem from "@/components/common/galary_items";
-import Footer from "@/components/footer/Footer";
+import GalleryItem from "../../components/common/galary_items";
+import Footer from "../../components/footer/Footer";
 import { useRouter } from "next/navigation";
 
 const galleryData = [

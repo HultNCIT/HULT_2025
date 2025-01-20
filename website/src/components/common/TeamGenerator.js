@@ -1,6 +1,6 @@
 "use client";
 import React, { lazy,Suspense } from "react";
-import TeamCard from "@/components/common/team";
+import TeamCard from "../common/team";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
