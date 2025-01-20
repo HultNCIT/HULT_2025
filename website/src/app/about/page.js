@@ -1,8 +1,9 @@
 "use client";
-import FadeInWrapper from "../../components/common/fadeinwrapper";
-import Pill_outline from "../../components/common/Pill_outline";
-import TeamGenerator from "../../components/common/TeamGenerator";
-import Footer from "../../components/footer/Footer";
+import Advisor from "@/components/common/Advisor";
+import FadeInWrapper from "@/components/common/fadeinwrapper";
+import Pill_outline from "@/components/common/Pill_outline";
+import TeamGenerator from "@/components/common/TeamGenerator";
+import Footer from "@/components/footer/Footer";
 export default function AboutPage() {
   return (
     <section>
@@ -118,6 +119,14 @@ export default function AboutPage() {
             <h2 className=" font-bold border-b-4 border-accent">Our Team</h2>
           </div>
           <TeamGenerator />
+        </div>
+        <div className="py-10">
+          <div className="flex justify-center md:pb-10 w-full">
+            <h2 className=" font-bold border-b-4 text-nowrap border-accent">Our Advisory Committee</h2>
+          </div>
+         
+            <Advisor/>
+          
         </div>
       </div>
       <Footer />

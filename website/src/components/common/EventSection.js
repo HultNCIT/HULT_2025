@@ -228,7 +228,7 @@ const data = [
     state: "upcoming",
     date: "2025-1-17",
     image:"/events/future_innovators.jpg",
-    info: "Future Innovators Session for Aspiring Entrepreneurs",
+    info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
   {
@@ -237,7 +237,7 @@ const data = [
     date: "2025-1-22",
     // image:"",
     info: "Join to know all about Business Model Canvas",
-    link: "#",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScKy6yf-o6depFL3MFLhPOlkClwxOgPv-ze-UyA1AUnlvXu0Q/viewform?usp=preview",
   },
   {
     title: "Concept to Pitch",
@@ -255,7 +255,7 @@ const data = [
   //   info: "Join us for Public Speaking and Presentation Workshop",
   //   link: "#",
   // },
-
+ 
   {
     title: "Pitch Demo",
     state: "upcoming",
@@ -265,7 +265,7 @@ const data = [
     link: "#",
   },
   {
-    title: "Finale",
+    title: "Final",
     state: "upcoming",
     date: "2025-1-31",
     // image:"",
