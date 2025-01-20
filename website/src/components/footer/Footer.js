@@ -41,7 +41,7 @@ const Footer = () => {
             <Link className="footer-link-modify link-hover-anim text-sm" href={"/#event"}>
               Events
             </Link>
-            <Link className="footer-link-modify text-sm" href="/Contact">
+            <Link className="footer-link-modify text-sm" href="/contact">
               Contact
             </Link>
           </div>
