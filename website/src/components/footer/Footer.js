@@ -38,6 +38,9 @@ const Footer = () => {
             <Link className="footer-link-modify link-hover-anim text-sm " href={"/about"}>
               About
             </Link>
+            <Link className="footer-link-modify link-hover-anim text-sm " href={"/gallery"}>
+              Gallery
+            </Link>
             <Link className="footer-link-modify link-hover-anim text-sm" href={"/#event"}>
               Events
             </Link>
