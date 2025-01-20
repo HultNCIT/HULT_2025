@@ -1,14 +1,14 @@
 'use client';
 import GalleryItem from "../../components/common/galary_items";
 import Footer from "../../components/footer/Footer";
-import { useRouter } from "next/navigation";
+
 
 const galleryData = [
   { imageSrc: "/events/event1.jpg", title: "Info Session",day:'06',month:'Dec' },
   { imageSrc: "/events/event2.jpg", title: "Experience Sharing",day:'17',month:'Dec' },
   { imageSrc: "/events/event3.jpg", title: "Info Sharing",day:'23',month:'Dec' },
   { imageSrc: "/events/landscape.jpg", title: "Startup Market",day:'3',month:'Jan' },
-  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading",day:'24',month:'Nov' },
+  { imageSrc: "/events/future_innovators.jpg", title: "Future Innovation",day:'17',month:'Jan' },
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
