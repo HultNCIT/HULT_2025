@@ -104,13 +104,13 @@ const advisor = [
        position:'Advisor'
     },
     {
-      img:'/advisor/shivahari.jpg',
+      img:'/advisor/Mani.jpg',
       name:'Er. Mani Paudel',
       designation:'HOD, Civil',
        position:'Advisor'
     },
     {
-      img:'/advisor/mani.jpg',
+      img:'/advisor/shivahari.jpg',
       name:'Shivahari Acharya',
       designation:'HOD, ELX',
        position:'Advisor'
