@@ -228,15 +228,15 @@ const data = [
     state: "upcoming",
     date: "2025-1-17",
     image:"/events/future_innovators.jpg",
-    info: "Join us for Technopreneurship & Youth Entrepreneurship Session",
+    info: "Youth Entrepreneurship Session for our future innovators",
     link: "https://forms.gle/PY2G8HmnittMGocg9",
   },
   {
     title: "Business Model Canvas",
     state: "upcoming",
     date: "2025-1-22",
-    image:"events/model.webp",
-    info: "Join to know all about Business Model Canvas",
+    image:"events/model.jpg",
+    info: "Developing Business Model Canvas for a successful startup",
     link: "https://docs.google.com/forms/d/e/1FAIpQLScKy6yf-o6depFL3MFLhPOlkClwxOgPv-ze-UyA1AUnlvXu0Q/viewform?usp=preview",
   },
   {

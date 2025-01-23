@@ -9,7 +9,7 @@ const galleryData = [
   { imageSrc: "/events/event3.jpg", title: "Info Sharing",day:'23',month:'Dec' },
   { imageSrc: "/events/landscape.jpg", title: "Startup Market",day:'3',month:'Jan' },
   { imageSrc: "/events/future_innovators.jpg", title: "Future Innovation",day:'17',month:'Jan' },
-  // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
+  { imageSrc: "/events/bmc.jpg", title: "Business Canvas Model" ,day:'22',month:'Feb'},
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},
   // { imageSrc: "/hult_image/people.jpg", title: "Events Loading" ,day:'24',month:'Nov'},

@@ -9,7 +9,7 @@ const GalleryItem = ({ imageSrc, title,day,month }) => {
         height={700}
         className={`rounded-lg object-cover w-full h-full`}
       />
-      <div className={`absolute -bottom-2 w-64 -left-2 rounded-lg  text-center bg-white text-blackMain shadow-2xl flex items-center `}>
+      <div className={`absolute -bottom-2  -left-2 rounded-lg  text-center bg-white text-blackMain shadow-2xl flex items-center `}>
         <div className="bg-accent text-white font-poppins font-semibold h-full  p-1 w-20 rounded-l-lg">
             <p className="text-white">{day}</p>
             <p className="text-white">{month}</p>
