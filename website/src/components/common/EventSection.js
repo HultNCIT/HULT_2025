@@ -242,10 +242,26 @@ const data = [
   {
     title: "Concept to Pitch",
     state: "upcoming",
-    date: "2025-1-24",
+    date: "2025-1-25",
     image:"events/pitch.jpeg",
     info: "Join us to gain Concept to Pitch: Crafting Winning Ideas",
     link: "https://forms.gle/eA6KfBNe7Pqne6ms6",
+  },
+  {
+    title: "Business Idea Exhibition",
+    state: "upcoming",
+    date: "2025-1-26",
+    image:"events/exhibition.jpg",
+    info: "Be part of an inspiring business idea exhibition!",
+    link: "/",
+  },
+  {
+    title: "Blood Donation",
+    state: "upcoming",
+    date: "2025-1-27",
+    image:"events/donate.jpg",
+    info: "Be a hero at our blood donation event!",
+    link: "/",
   },
   // {
   //   title: "Public Speaking and Presentation Workshop",
