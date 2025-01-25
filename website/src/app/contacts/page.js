@@ -66,7 +66,7 @@ const ContactPage = () => {
                   <h5>Address:</h5>
                 </div>
                 <div className="tile-content">
-                  <p>Balkumari, Kathmandu</p>
+                  <p>Balkumari, Lalitpur</p>
                 </div>
               </div>
               <div className="tile-container">
@@ -74,7 +74,7 @@ const ContactPage = () => {
                   <h5>Mail Us:</h5>
                 </div>
                 <div className="tile-content">
-                  <p>hultprize@ncit.edu.com</p>
+                  <p>hultprize@ncit.edu.np</p>
                 </div>
               </div>
               <div className="tile-container">
@@ -82,7 +82,7 @@ const ContactPage = () => {
                   <h5>Telephone:</h5>
                 </div>
                 <div className="tile-content">
-                  <p>(+977) 9862695444</p>
+                  <p>(+977) 9849951556</p>
                 </div>
               </div>
             </div>

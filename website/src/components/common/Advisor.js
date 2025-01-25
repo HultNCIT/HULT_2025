@@ -111,8 +111,15 @@ const advisor = [
     },
     {
       img:'/advisor/shivahari.jpg',
+      img:'/advisor/shivahari.jpg',
       name:'Shivahari Acharya',
       designation:'HOD, ELX',
+       position:'Advisor'
+    },
+       {
+      img:'/advisor/rishi.jpg',
+      name:'Er. Rishi Kanta Marseni  ',
+      designation:'Faculty, NCIT',
        position:'Advisor'
     },
     {
@@ -139,18 +146,11 @@ const advisor = [
       designation:'Faculty, NCIT',
        position:'Advisor'
     },
-    {
-      img:'/advisor/rishi.jpg',
-      name:'Er. Rishi Kanta Marseni  ',
-      designation:'Faculty, NCIT',
-       position:'Advisor'
-    },
+ 
     {
       img:'/advisor/raaz.jpg',
       name:'Raaz Gupta',
       designation:'Student, NCIT',
        position:'Organizing Mentor'
     },
- 
-
 ]
