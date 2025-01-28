@@ -27,7 +27,7 @@ function Header() {
         >
           Events
         </a>
-        <Button link={'https://www.hultprize.org/startup-pre-registration-is-now-open/'} state/>
+        <Button link={'#'} state/>
         {/**slidebar */}
         <SildeBar />
       </div>

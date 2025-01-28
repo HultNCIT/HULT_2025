@@ -6,6 +6,8 @@ import Footer from "../components/footer/Footer";
 import Countdown from "../components/common/Countdown";
 import Link from "next/link";
 import EventSection from "../components/common/EventSection";
+import Sponsor from "@/components/common/Sponsor";
+import Community from "@/components/common/Community";
 export default function Home() {
   return (
     <main id="home">
@@ -107,16 +109,16 @@ export default function Home() {
           </FadeInWrapper>
         </div>
       </section>
-
+      <FadeInWrapper>
       <section
         id="event"
-        className="py-14 w-full flex flex-col justify-center items-center gap-12"
+        className="pt-14 w-full flex flex-col justify-center items-center gap-12"
       >
         {/**Upcoming events */}
         <h1 className="font-extrabold">Upcoming Events</h1>
         <EventSection/>
       </section>
-
+      </FadeInWrapper>
       {/* <FadeInWrapper>
         <section className="py-12 w-full flex flex-col justify-center items-center gap-6">
           
@@ -125,7 +127,18 @@ export default function Home() {
         </section>
       </FadeInWrapper> */}
       {/**Gallery section */}
-      <section className=""></section>
+      <FadeInWrapper>
+      <section className="pb-14 w-full flex flex-col justify-center items-center gap-12">
+      <h1 className="font-extrabold">Our Sponsors</h1>
+        <Sponsor/>
+      </section>
+      </FadeInWrapper>
+      <FadeInWrapper>
+      <section className="pb-14 w-full flex flex-col justify-center items-center gap-12">
+      <h1 className="font-extrabold">Community Partners</h1>
+        <Community/>
+      </section>
+      </FadeInWrapper>
       <Footer />
     </main>
   );
