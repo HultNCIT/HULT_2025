@@ -278,7 +278,7 @@ const data = [
     date: "2025-1-28",
     image:"events/demopitch.jpg",
     info: "Receive a valuable feedbacksfrom our Pitch Demo session",
-    link: "https://www.hultprize.org/startup-pre-registration-is-now-open/",
+    link: "#",
   },
   {
     title: "Final",
@@ -286,7 +286,7 @@ const data = [
     date: "2025-1-31",
     image:"events/final_pitch.jpg",
     info: "Pitch your idea to the judges",
-    link: "https://www.hultprize.org/startup-pre-registration-is-now-open/",
+    link: "#",
   },
 ];
 
