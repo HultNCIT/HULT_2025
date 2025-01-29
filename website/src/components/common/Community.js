@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const Community = () => {
@@ -63,5 +64,10 @@ const community=[
         img:'community/edusanjal.jpg',
         name:'edusanjal',
         link:'https://edusanjal.com/'
+    },
+    {
+        img:'community/NTC_logo.png',
+        name:'NTC',
+        link:'https://tekcommunity.ncit.edu.np/'
     },
 ]
